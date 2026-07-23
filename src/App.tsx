@@ -64,8 +64,8 @@ const INITIAL_REPORTS: OutageReport[] = [
     districtNameAr: "أميلكار",
     type: "blackout",
     status: "active",
-    reportedAt: new Date(Date.now() - 12 * 60 * 1000).toISOString(), // 12m ago
-    upvotes: 2,
+    reportedAt: new Date(Date.now() - 12 * 60 * 1000).toISOString(),
+    upvotes: 8,
     userUpvoted: false,
     details: "Complete blackout across residential streets near Amilcar station. Entire block dark.",
     reporterName: "Wassim G.",
@@ -84,8 +84,8 @@ const INITIAL_REPORTS: OutageReport[] = [
     districtNameAr: "أميلكار",
     type: "blackout",
     status: "active",
-    reportedAt: new Date(Date.now() - 8 * 60 * 1000).toISOString(), // 8m ago
-    upvotes: 1,
+    reportedAt: new Date(Date.now() - 8 * 60 * 1000).toISOString(),
+    upvotes: 4,
     userUpvoted: false,
     details: "Confirming no light in Amilcar! Streetlights and houses pitch dark.",
     reporterName: "Mariem S.",
@@ -106,7 +106,7 @@ const INITIAL_REPORTS: OutageReport[] = [
     status: "restored",
     reportedAt: new Date(Date.now() - 35 * 60 * 1000).toISOString(),
     restoredAt: new Date(Date.now() - 4 * 60 * 1000).toISOString(),
-    upvotes: 3,
+    upvotes: 6,
     userUpvoted: false,
     details: "Power just returned on Rue de la Plage side! Dhaw rja3.",
     reporterName: "Yassine B.",
@@ -126,7 +126,7 @@ const INITIAL_REPORTS: OutageReport[] = [
     type: "blackout",
     status: "active",
     reportedAt: new Date(Date.now() - 25 * 60 * 1000).toISOString(),
-    upvotes: 14,
+    upvotes: 18,
     userUpvoted: true,
     details: "High-voltage substation trip near municipal clinic. Entire block is out.",
     reporterName: "Ahmed K.",
@@ -146,9 +146,9 @@ const INITIAL_REPORTS: OutageReport[] = [
     type: "voltage",
     status: "active",
     reportedAt: new Date(Date.now() - 15 * 60 * 1000).toISOString(),
-    upvotes: 5,
+    upvotes: 7,
     userUpvoted: false,
-    details: "Severe voltage drops (around 140V). AC units failing.",
+    details: "Severe voltage drops (around 140V). AC units and pumps failing.",
     reporterName: "Sonia T.",
     affectedCategory: "business"
   },
@@ -167,7 +167,7 @@ const INITIAL_REPORTS: OutageReport[] = [
     status: "restored",
     reportedAt: new Date(Date.now() - 120 * 60 * 1000).toISOString(),
     restoredAt: new Date(Date.now() - 40 * 60 * 1000).toISOString(),
-    upvotes: 9,
+    upvotes: 11,
     userUpvoted: false,
     details: "Power fully restored across main avenue. Dhaw rja3!",
     reporterName: "Anis R.",
@@ -187,17 +187,127 @@ const INITIAL_REPORTS: OutageReport[] = [
     type: "partial",
     status: "active",
     reportedAt: new Date(Date.now() - 50 * 60 * 1000).toISOString(),
-    upvotes: 4,
+    upvotes: 9,
     userUpvoted: false,
-    details: "One phase is down in commercial area.",
+    details: "One phase is down in commercial area near hospital roundabout.",
     reporterName: "Nizar B.",
     affectedCategory: "business"
+  },
+  {
+    id: "rep-sfax-1",
+    governorateId: 14,
+    governorateNameFr: "Sfax",
+    governorateNameAr: "صفاقس",
+    delegationId: 1401,
+    delegationNameFr: "Sfax Ville",
+    delegationNameAr: "صفاقس المدينة",
+    districtId: 140101,
+    districtNameFr: "Bab Bhar",
+    districtNameAr: "باب بحر",
+    type: "blackout",
+    status: "active",
+    reportedAt: new Date(Date.now() - 18 * 60 * 1000).toISOString(),
+    upvotes: 15,
+    userUpvoted: false,
+    details: "Total electricity cutoff near Route de Teniour km 2. Shops relying on generators.",
+    reporterName: "Mohamed H.",
+    affectedCategory: "business"
+  },
+  {
+    id: "rep-sfax-2",
+    governorateId: 14,
+    governorateNameFr: "Sfax",
+    governorateNameAr: "صفاقس",
+    delegationId: 1402,
+    delegationNameFr: "Sakiet Ezzit",
+    delegationNameAr: "ساقية الزيت",
+    districtId: 140201,
+    districtNameFr: "Sakiet Ezzit Centre",
+    districtNameAr: "ساقية الزيت المركز",
+    type: "blackout",
+    status: "restored",
+    reportedAt: new Date(Date.now() - 90 * 60 * 1000).toISOString(),
+    restoredAt: new Date(Date.now() - 15 * 60 * 1000).toISOString(),
+    upvotes: 12,
+    userUpvoted: false,
+    details: "STEG technical team replaced transformer. Power is back up!",
+    reporterName: "Sami L.",
+    affectedCategory: "home"
+  },
+  {
+    id: "rep-bizerte-1",
+    governorateId: 7,
+    governorateNameFr: "Bizerte",
+    governorateNameAr: "بنزرت",
+    delegationId: 701,
+    delegationNameFr: "Bizerte Nord",
+    delegationNameAr: "بنزرت الشمالية",
+    districtId: 70101,
+    districtNameFr: "Corniche",
+    districtNameAr: "الكورنيش",
+    type: "voltage",
+    status: "active",
+    reportedAt: new Date(Date.now() - 42 * 60 * 1000).toISOString(),
+    upvotes: 6,
+    userUpvoted: false,
+    details: "Frequent flickering and low voltage along the beach avenue.",
+    reporterName: "Farah M.",
+    affectedCategory: "home"
+  },
+  {
+    id: "rep-nabeul-1",
+    governorateId: 5,
+    governorateNameFr: "Nabeul",
+    governorateNameAr: "نابل",
+    delegationId: 501,
+    delegationNameFr: "Hammamet",
+    delegationNameAr: "حمامات",
+    districtId: 50101,
+    districtNameFr: "Hammamet Nord",
+    districtNameAr: "الحمامات الشمالية",
+    type: "partial",
+    status: "active",
+    reportedAt: new Date(Date.now() - 60 * 60 * 1000).toISOString(),
+    upvotes: 10,
+    userUpvoted: false,
+    details: "Scheduled grid maintenance work announced by STEG until 14:00.",
+    reporterName: "Khaled A.",
+    affectedCategory: "business"
+  },
+  {
+    id: "rep-ariana-1",
+    governorateId: 2,
+    governorateNameFr: "Ariana",
+    governorateNameAr: "أريانة",
+    delegationId: 201,
+    delegationNameFr: "Ariana Ville",
+    delegationNameAr: "أريانة المدينة",
+    districtId: 20101,
+    districtNameFr: "Ennasr 2",
+    districtNameAr: "النصر 2",
+    type: "blackout",
+    status: "active",
+    reportedAt: new Date(Date.now() - 30 * 60 * 1000).toISOString(),
+    upvotes: 21,
+    userUpvoted: false,
+    details: "Unplanned blackout across main Avenue Hédi Nouira.",
+    reporterName: "Ines D.",
+    affectedCategory: "home"
   }
 ];
 
 export default function App() {
   // --- STATE ---
-  const [reports, setReports] = useState<OutageReport[]>([]);
+  const [reports, setReports] = useState<OutageReport[]>(() => {
+    try {
+      const saved = localStorage.getItem('rja3chi_reports') || localStorage.getItem('rjachi_reports') || localStorage.getItem('famma_dhaw_reports');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch {}
+    return INITIAL_REPORTS;
+  });
   const [activeTab, setActiveTab] = useState<'feed' | 'report' | 'analytics' | 'locations'>('feed');
   const [selectedGovFilter, setSelectedGovFilter] = useState<string>('all');
   const [statusFilter, setStatusFilter] = useState<string>('all');
@@ -250,7 +360,25 @@ export default function App() {
   const [wizReporter, setWizReporter] = useState<string>('');
 
   // Cast JSON data, loaded into state to support dynamic custom districts
-  const [governorates, setGovernorates] = useState<Governorate[]>([]);
+  const [governorates, setGovernorates] = useState<Governorate[]>(() => {
+    let baseLocs = JSON.parse(JSON.stringify(locationsData)) as Governorate[];
+    try {
+      const savedCustomLocs = localStorage.getItem('rja3chi_custom_districts') || localStorage.getItem('rjachi_custom_districts') || localStorage.getItem('famma_dhaw_custom_districts');
+      if (savedCustomLocs) {
+        const customDistricts = JSON.parse(savedCustomLocs) as { governorateId: number; delegationId: number; district: any }[];
+        customDistricts.forEach(custom => {
+          const gov = baseLocs.find(g => g.id === custom.governorateId);
+          if (gov) {
+            const del = gov.delegations.find(d => d.id === custom.delegationId);
+            if (del && !del.districts.some(ds => ds.id === custom.district.id)) {
+              del.districts.push(custom.district);
+            }
+          }
+        });
+      }
+    } catch {}
+    return baseLocs;
+  });
   const [showCustomDistrictForm, setShowCustomDistrictForm] = useState<boolean>(false);
   const [customDistNameFr, setCustomDistNameFr] = useState<string>('');
   const [customDistNameAr, setCustomDistNameAr] = useState<string>('');
@@ -361,21 +489,33 @@ export default function App() {
     const unsubscribeReports = onSnapshot(
       reportsRef,
       (snapshot) => {
+        const reportMap = new Map<string, OutageReport>();
+        // First populate with INITIAL_REPORTS
+        INITIAL_REPORTS.forEach(r => reportMap.set(r.id, r));
+
         if (!snapshot.empty) {
-          const cloudReports: OutageReport[] = [];
           snapshot.forEach((docSnap) => {
-            cloudReports.push(docSnap.data() as OutageReport);
+            const r = docSnap.data() as OutageReport;
+            if (r && r.id) {
+              reportMap.set(r.id, r);
+            }
           });
-          setReports(cloudReports);
-          localStorage.setItem('rja3chi_reports', JSON.stringify(cloudReports));
+          // Ensure all initial reports are seeded in Firestore if missing
+          INITIAL_REPORTS.forEach(r => {
+            if (!snapshot.docs.some(d => d.id === r.id)) {
+              setDoc(doc(db, 'reports', r.id), r).catch(() => {});
+            }
+          });
         } else {
           // Initialize/seed cloud with INITIAL_REPORTS if empty
           INITIAL_REPORTS.forEach(r => {
             setDoc(doc(db, 'reports', r.id), r).catch(e => console.error("Error seeding report to Firestore", e));
           });
-          setReports(INITIAL_REPORTS);
-          localStorage.setItem('rja3chi_reports', JSON.stringify(INITIAL_REPORTS));
         }
+
+        const mergedReports = Array.from(reportMap.values());
+        setReports(mergedReports);
+        localStorage.setItem('rja3chi_reports', JSON.stringify(mergedReports));
       },
       (error) => {
         handleFirestoreError(error, OperationType.GET, 'reports');
@@ -907,21 +1047,35 @@ export default function App() {
     );
   }, [locationSearch, governorates]);
 
-  // Filter lists for wizard step search
+  // Filter lists for wizard step search (deep searches across governorate, delegation, and district names)
   const filteredWizGovs = useMemo(() => {
     if (!wizGovSearch.trim()) return governorates;
-    const query = wizGovSearch.toLowerCase();
+    const query = wizGovSearch.toLowerCase().trim();
     return governorates.filter(g => 
-      g.name_fr.toLowerCase().includes(query) || g.name_ar.includes(query)
+      g.name_fr.toLowerCase().includes(query) || 
+      g.name_ar.includes(query) ||
+      g.delegations.some(d => 
+        d.name_fr.toLowerCase().includes(query) || 
+        d.name_ar.includes(query) ||
+        d.districts.some(ds => 
+          ds.name_fr.toLowerCase().includes(query) || 
+          ds.name_ar.includes(query)
+        )
+      )
     );
   }, [wizGovSearch, governorates]);
 
   const filteredWizDels = useMemo(() => {
     if (!wizGov) return [];
     if (!wizDelSearch.trim()) return wizGov.delegations;
-    const query = wizDelSearch.toLowerCase();
+    const query = wizDelSearch.toLowerCase().trim();
     return wizGov.delegations.filter(d => 
-      d.name_fr.toLowerCase().includes(query) || d.name_ar.includes(query)
+      d.name_fr.toLowerCase().includes(query) || 
+      d.name_ar.includes(query) ||
+      d.districts.some(ds => 
+        ds.name_fr.toLowerCase().includes(query) || 
+        ds.name_ar.includes(query)
+      )
     );
   }, [wizDelSearch, wizGov]);
 
@@ -929,7 +1083,7 @@ export default function App() {
     if (!wizDel) return [];
     const sortedDistricts = [...wizDel.districts].sort((a, b) => a.name_fr.localeCompare(b.name_fr));
     if (!wizDistSearch.trim()) return sortedDistricts;
-    const query = wizDistSearch.toLowerCase();
+    const query = wizDistSearch.toLowerCase().trim();
     return sortedDistricts.filter(d => 
       d.name_fr.toLowerCase().includes(query) || d.name_ar.includes(query)
     );
@@ -1788,28 +1942,43 @@ export default function App() {
                         />
                       </div>
 
-                      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-h-80 overflow-y-auto pr-1">
-                        {filteredWizGovs.map(g => (
+                      {filteredWizGovs.length === 0 ? (
+                        <div className="text-center py-8 bg-slate-950/60 rounded-2xl border border-slate-800 p-6 space-y-3">
+                          <MapPin className="w-8 h-8 text-amber-400 mx-auto opacity-70" />
+                          <p className="text-xs font-bold text-slate-300">No location matching "{wizGovSearch}"</p>
+                          <p className="text-[11px] text-slate-400">Try searching by governorate name, city, delegation or district.</p>
                           <button
-                            key={g.id}
                             type="button"
-                            onClick={() => {
-                              setWizGov(g);
-                              setWizDel(null);
-                              setWizDist(null);
-                              setWizardStep(2);
-                            }}
-                            className={`p-3.5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
-                              wizGov?.id === g.id
-                                ? 'bg-amber-400 text-slate-950 border-amber-300 font-bold shadow-md shadow-amber-400/20'
-                                : 'bg-slate-950/60 hover:bg-slate-850 border-slate-800 text-slate-200'
-                            }`}
+                            onClick={() => setWizGovSearch('')}
+                            className="px-4 py-2 bg-amber-400 text-slate-950 text-xs font-extrabold rounded-xl hover:bg-amber-300 transition-colors cursor-pointer"
                           >
-                            <span className="font-extrabold text-xs block">{g.name_fr}</span>
-                            <span className="font-arabic font-semibold text-xs text-slate-400 block mt-1">{g.name_ar}</span>
+                            Show All 24 Governorates (عرض جميع الولايات)
                           </button>
-                        ))}
-                      </div>
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-h-80 overflow-y-auto pr-1">
+                          {filteredWizGovs.map(g => (
+                            <button
+                              key={g.id}
+                              type="button"
+                              onClick={() => {
+                                setWizGov(g);
+                                setWizDel(null);
+                                setWizDist(null);
+                                setWizardStep(2);
+                              }}
+                              className={`p-3.5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                                wizGov?.id === g.id
+                                  ? 'bg-amber-400 text-slate-950 border-amber-300 font-bold shadow-md shadow-amber-400/20'
+                                  : 'bg-slate-950/60 hover:bg-slate-850 border-slate-800 text-slate-200'
+                              }`}
+                            >
+                              <span className="font-extrabold text-xs block">{g.name_fr}</span>
+                              <span className="font-arabic font-semibold text-xs text-slate-400 block mt-1">{g.name_ar}</span>
+                            </button>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   )}
 
@@ -1844,22 +2013,35 @@ export default function App() {
                             placeholder="Filter delegation..."
                             className="w-full px-3 py-2 border border-slate-800 rounded-xl text-xs bg-slate-950 text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-amber-400"
                           />
-                          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-h-60 overflow-y-auto pr-1">
-                            {filteredWizDels.map(d => (
+                          {filteredWizDels.length === 0 ? (
+                            <div className="text-center py-6 bg-slate-950/60 rounded-xl border border-slate-800 p-4 space-y-2">
+                              <p className="text-xs font-bold text-slate-300">No delegation matching "{wizDelSearch}"</p>
                               <button
-                                key={d.id}
                                 type="button"
-                                onClick={() => {
-                                  setWizDel(d);
-                                  setWizDist(null);
-                                }}
-                                className="p-3 bg-slate-950/60 hover:bg-slate-850 border border-slate-800 rounded-xl text-left transition-all cursor-pointer"
+                                onClick={() => setWizDelSearch('')}
+                                className="px-3 py-1.5 bg-amber-400 text-slate-950 text-xs font-bold rounded-lg hover:bg-amber-300 cursor-pointer"
                               >
-                                <span className="font-bold text-xs text-white block">{d.name_fr}</span>
-                                <span className="font-arabic text-xs text-slate-400 block mt-0.5">{d.name_ar}</span>
+                                Show All Delegations
                               </button>
-                            ))}
-                          </div>
+                            </div>
+                          ) : (
+                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-h-60 overflow-y-auto pr-1">
+                              {filteredWizDels.map(d => (
+                                <button
+                                  key={d.id}
+                                  type="button"
+                                  onClick={() => {
+                                    setWizDel(d);
+                                    setWizDist(null);
+                                  }}
+                                  className="p-3 bg-slate-950/60 hover:bg-slate-850 border border-slate-800 rounded-xl text-left transition-all cursor-pointer"
+                                >
+                                  <span className="font-bold text-xs text-white block">{d.name_fr}</span>
+                                  <span className="font-arabic text-xs text-slate-400 block mt-0.5">{d.name_ar}</span>
+                                </button>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       ) : (
                         /* District selection once Delegation chosen */
