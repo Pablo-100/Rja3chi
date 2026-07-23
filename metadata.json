@@ -1,0 +1,6 @@
+{
+  "name": "Rja3chi",
+  "description": "Crowdsourced real-time electricity outage and restoration reporting platform for Tunisia (Rja3chi - رجعلكم الضو؟) with anti-fake verification and community consensus tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

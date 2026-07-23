@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Global helper functions
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128;
+    }
+
+    // Reports collection
+    match /reports/{reportId} {
+      allow read: if true;
+      allow create: if isValidId(reportId)
+        && request.resource.data.id is string
+        && request.resource.data.district is string
+        && request.resource.data.status in ['outage', 'restored', 'low_voltage', 'scheduled'];
+      allow update: if isValidId(reportId);
+      allow delete: if false;
+    }
+
+    // Custom districts collection
+    match /customDistricts/{customDistrictId} {
+      allow read: if true;
+      allow create: if isValidId(customDistrictId)
+        && request.resource.data.district is string;
+      allow update: if isValidId(customDistrictId);
+      allow delete: if false;
+    }
+
+    // STEG Notices collection
+    match /stegNotices/{noticeId} {
+      allow read: if true;
+      allow create: if isValidId(noticeId);
+      allow update: if isValidId(noticeId);
+      allow delete: if false;
+    }
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

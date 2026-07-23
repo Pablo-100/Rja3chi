@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "OutageReport": {
+      "title": "OutageReport",
+      "description": "Electricity outage or restoration report in Tunisia",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "governorateId": { "type": "number" },
+        "governorateName": { "type": "string", "maxLength": 100 },
+        "governorateNameAr": { "type": "string", "maxLength": 100 },
+        "delegationId": { "type": "number" },
+        "delegationName": { "type": "string", "maxLength": 100 },
+        "delegationNameAr": { "type": "string", "maxLength": 100 },
+        "district": { "type": "string", "maxLength": 120 },
+        "status": { "type": "string", "enum": ["outage", "restored", "low_voltage", "scheduled"] },
+        "reportType": { "type": "string", "maxLength": 100 },
+        "category": { "type": "string", "maxLength": 100 },
+        "estimatedDuration": { "type": "string", "maxLength": 100 },
+        "description": { "type": "string", "maxLength": 1000 },
+        "stegIncidentCode": { "type": "string", "maxLength": 50 },
+        "affectedCount": { "type": "number" },
+        "upvotes": { "type": "number" },
+        "confirmations": { "type": "number" },
+        "disputes": { "type": "number" },
+        "createdAt": { "type": "number" },
+        "updatedAt": { "type": "number" },
+        "authorDeviceId": { "type": "string", "maxLength": 100 },
+        "authorIpHash": { "type": "string", "maxLength": 100 },
+        "isVerified": { "type": "boolean" }
+      },
+      "required": ["id", "governorateId", "delegationId", "district", "status"]
+    },
+    "CustomDistrict": {
+      "title": "CustomDistrict",
+      "description": "User-contributed neighborhood/district entry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "delegationId": { "type": "number" },
+        "district": { "type": "string", "maxLength": 120 },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["id", "delegationId", "district"]
+    },
+    "StegNotice": {
+      "title": "StegNotice",
+      "description": "Official or community broadcast alert from STEG or grid admins",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "governorateName": { "type": "string", "maxLength": 100 },
+        "title": { "type": "string", "maxLength": 200 },
+        "titleAr": { "type": "string", "maxLength": 200 },
+        "details": { "type": "string", "maxLength": 1000 },
+        "startTime": { "type": "string", "maxLength": 50 },
+        "endTime": { "type": "string", "maxLength": 50 },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["id", "title", "details"]
+    }
+  },
+  "firestore": {
+    "/reports/{reportId}": {
+      "schema": { "$ref": "#/entities/OutageReport" },
+      "description": "Global collection of active and historical power outage and restoration reports"
+    },
+    "/customDistricts/{customDistrictId}": {
+      "schema": { "$ref": "#/entities/CustomDistrict" },
+      "description": "Community added districts and neighborhoods"
+    },
+    "/stegNotices/{noticeId}": {
+      "schema": { "$ref": "#/entities/StegNotice" },
+      "description": "Public maintenance and outage notices"
+    }
+  }
+}
