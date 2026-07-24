@@ -1,8 +1,8 @@
 # Rja3chi (رجعلكم الضو؟) ⚡🇹🇳
 
-> **Crowdsourced Real-Time Electricity Outage & Restoration Tracker for Tunisia**
+> **Crowdsourced Real-Time Incident Tracker for Tunisia (Electricity, Water, Fire)**
 
-**Rja3chi** (*رجعلكم الضو؟*) is an advanced, privacy-first, community-driven platform built to track power outages, voltage fluctuations, and power restorations across all 24 Governorates (*ولايات*) of Tunisia in real time. Built with robust anti-fake detection protocols, regional granularity down to the neighborhood level, and community consensus verification.
+**Rja3chi** (*رجعلكم الضو؟*) is an advanced, privacy-first, community-driven platform built to track electricity outages/restorations, water incidents, and fire incidents across all 24 Governorates (*ولايات*) of Tunisia in real time. Built with robust anti-fake detection protocols, regional granularity down to the neighborhood level, and community consensus verification.
 
 ---
 
@@ -12,7 +12,11 @@
 - **Full Geographic Hierarchy**: Coverage of all **24 Governorates** (*ولاية*), **260+ Delegations** (*معتمدية*), and custom user-added **Districts & Neighborhoods** (*عمادة / حومة*).
 - **Dynamic Location Search**: Instant search in both Arabic (*تونس, صفاقس, سوسة*) and Latin characters (*Tunis, Sfax, Sousse*).
 
-### ⚡ 2. Real-Time Power Status Reporting
+### ⚡ 2. Real-Time Incident Reporting
+- **Incident Categories**:
+  - ⚡ **Electricity (Dhaw)**
+  - 💧 **Water (Mee / Eau)**
+  - 🔥 **Fire (7ri9a / Incendie)**
 - **Outage Types**:
   - 🔴 **In9i6a3 (انقطاع كامل)** — Total Power Outage
   - 🟢 **Rja3 الضو (رجوع الكهرباء)** — Power Restored
@@ -31,8 +35,10 @@
 - **Dispute & Fake Flagging**: Misleading reports are auto-moderated and deprioritized when flagged by multiple users.
 - **Urgent STEG & Public Alerts**: Broadcast system for major national grid incidents and scheduled maintenance notices.
 
-### 📊 5. Analytics & Outage Map
-- **Live Regional Heatmaps**: Quick visual status of power grid stability across North, Central, and South Tunisia.
+### 📊 5. Analytics & Tunisia Map
+- **Tunisia Map View**: Live map centered on Tunisia with clustered incident markers.
+- **GPS Reporting Flow**: Reporters can attach browser geolocation coordinates; if denied/unavailable, reporting still works with manual location selection.
+- **Live Regional Heatmaps**: Quick visual status of grid stability and incidents across North, Central, and South Tunisia.
 - **Governorate Leaderboards**: Filter by highest active outages, recent restorations, and average blackout duration.
 
 ---

@@ -29,7 +29,10 @@ import {
   Globe,
   Award,
   RotateCcw,
-  Trash2
+  Trash2,
+  Droplets,
+  Flame,
+  Map
 } from 'lucide-react';
 
 // Time-decay report weighting function (التقارير القديمة تنقص قيمتها مع الوقت)
@@ -47,7 +50,60 @@ const getReportTimeWeight = (reportedAtIso: string, currentTimeMs: number): numb
 };
 import { motion, AnimatePresence } from 'motion/react';
 import locationsData from './tunisia-locations.json';
-import { Governorate, OutageReport, OutageType, OutageStatus, AffectedCategory, DeviceSecurityProfile } from './types';
+import { Governorate, OutageReport, OutageType, OutageStatus, AffectedCategory, DeviceSecurityProfile, IncidentCategory } from './types';
+import TunisiaMapView from './TunisiaMapView';
+
+
+
+const GOVERNORATE_COORDS: Record<number, { lat: number; lng: number }> = {
+  1: { lat: 36.8065, lng: 10.1815 },
+  2: { lat: 36.8663, lng: 10.1647 },
+  3: { lat: 36.7531, lng: 10.2189 },
+  4: { lat: 37.2744, lng: 9.8739 },
+  5: { lat: 36.451, lng: 10.735 },
+  6: { lat: 36.4, lng: 10.6167 },
+  7: { lat: 37.2746, lng: 9.8739 },
+  8: { lat: 35.8256, lng: 10.6369 },
+  9: { lat: 35.6781, lng: 10.0963 },
+  10: { lat: 35.0382, lng: 10.5047 },
+  11: { lat: 34.7398, lng: 10.76 },
+  12: { lat: 35.8256, lng: 10.6369 },
+  13: { lat: 33.8869, lng: 10.0982 },
+  14: { lat: 34.7406, lng: 10.7603 },
+  15: { lat: 33.5039, lng: 8.7815 },
+  16: { lat: 35.5, lng: 8.78 },
+  17: { lat: 35.6781, lng: 10.0963 },
+  18: { lat: 35.1804, lng: 8.8365 },
+  19: { lat: 34.4226, lng: 8.7842 },
+  20: { lat: 34.425, lng: 8.7842 },
+  21: { lat: 33.3549, lng: 10.5055 },
+  22: { lat: 34.3148, lng: 9.1415 },
+  23: { lat: 33.9197, lng: 8.1335 },
+  24: { lat: 32.9297, lng: 10.4518 }
+};
+
+const normalizeIncidentCategory = (category: unknown): IncidentCategory => {
+  if (category === 'water' || category === 'fire' || category === 'electricity') return category;
+  return 'electricity';
+};
+
+const mapReportWithDefaults = (report: OutageReport): OutageReport => {
+  const fallback = GOVERNORATE_COORDS[report.governorateId];
+  const incidentCategory = normalizeIncidentCategory((report as OutageReport).incidentCategory);
+
+  return {
+    ...report,
+    incidentCategory,
+    latitude: typeof report.latitude === 'number' ? report.latitude : fallback?.lat,
+    longitude: typeof report.longitude === 'number' ? report.longitude : fallback?.lng
+  };
+};
+
+const INCIDENT_CATEGORY_OPTIONS: Array<{ id: IncidentCategory; label: string; labelAr: string; icon: typeof Zap }> = [
+  { id: 'electricity', label: 'Electricity (Dhaw)', labelAr: 'كهرباء', icon: Zap },
+  { id: 'water', label: 'Water (Mee)', labelAr: 'مياه', icon: Droplets },
+  { id: 'fire', label: 'Fire (7ri9a)', labelAr: 'حرائق', icon: Flame }
+];
 
 // Initial dynamic reports dataset representing current live situation
 const INITIAL_REPORTS: OutageReport[] = [
@@ -303,14 +359,15 @@ export default function App() {
       const saved = localStorage.getItem('rja3chi_reports') || localStorage.getItem('rjachi_reports') || localStorage.getItem('famma_dhaw_reports');
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed.map((r) => mapReportWithDefaults(r as OutageReport));
       }
     } catch {}
-    return INITIAL_REPORTS;
+    return INITIAL_REPORTS.map(mapReportWithDefaults);
   });
-  const [activeTab, setActiveTab] = useState<'feed' | 'report' | 'analytics' | 'locations'>('feed');
+  const [activeTab, setActiveTab] = useState<'feed' | 'report' | 'analytics' | 'locations' | 'map'>('feed');
   const [selectedGovFilter, setSelectedGovFilter] = useState<string>('all');
   const [statusFilter, setStatusFilter] = useState<string>('all');
+  const [incidentFilter, setIncidentFilter] = useState<'all' | IncidentCategory>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   
   // Live Timer tick state (updates every second)
@@ -355,9 +412,12 @@ export default function App() {
   const [wizDistSearch, setWizDistSearch] = useState<string>('');
   
   const [wizType, setWizType] = useState<OutageType>('blackout');
+  const [wizIncidentCategory, setWizIncidentCategory] = useState<IncidentCategory>('electricity');
   const [wizCategory, setWizCategory] = useState<AffectedCategory>('home');
   const [wizDetails, setWizDetails] = useState<string>('');
   const [wizReporter, setWizReporter] = useState<string>('');
+  const [wizCoordinates, setWizCoordinates] = useState<{ latitude: number; longitude: number } | null>(null);
+  const [geoStatus, setGeoStatus] = useState<string>('GPS optional.');
 
   // Cast JSON data, loaded into state to support dynamic custom districts
   const [governorates, setGovernorates] = useState<Governorate[]>(() => {
@@ -513,7 +573,7 @@ export default function App() {
           });
         }
 
-        const mergedReports = Array.from(reportMap.values());
+        const mergedReports = Array.from(reportMap.values()).map(mapReportWithDefaults);
         setReports(mergedReports);
         localStorage.setItem('rja3chi_reports', JSON.stringify(mergedReports));
       },
@@ -565,18 +625,19 @@ export default function App() {
     if (saved) {
       try {
         const currentData = JSON.parse(saved);
-        setReports(currentData);
+        setReports(Array.isArray(currentData) ? currentData.map((r: OutageReport) => mapReportWithDefaults(r)) : INITIAL_REPORTS.map(mapReportWithDefaults));
         showToast("Re-synced live community reports! All real user submissions preserved. (تم تحيين البيانات الحقيقية)", "success");
       } catch (e) {
         showToast("Refreshed live view state.", "info");
       }
     } else {
-      setReports(INITIAL_REPORTS);
+      setReports(INITIAL_REPORTS.map(mapReportWithDefaults));
       showToast("Initialized live feed.", "info");
     }
     setSelectedGovFilter('all');
     setStatusFilter('all');
     setSearchQuery('');
+    setIncidentFilter('all');
   };
 
   // Explicit option to purge demo reports if the user wants only clean real data
@@ -662,11 +723,12 @@ export default function App() {
 
   // Save reports on update & sync to Firebase Firestore
   const saveReports = (newReports: OutageReport[]) => {
-    setReports(newReports);
-    localStorage.setItem('rja3chi_reports', JSON.stringify(newReports));
+    const normalized = newReports.map(mapReportWithDefaults);
+    setReports(normalized);
+    localStorage.setItem('rja3chi_reports', JSON.stringify(normalized));
 
     // Save/update each report to Firestore cloud database
-    newReports.forEach(r => {
+    normalized.forEach(r => {
       setDoc(doc(db, 'reports', r.id), r).catch(e => {
         console.error("Firestore sync error for report:", r.id, e);
       });
@@ -739,6 +801,9 @@ export default function App() {
       
       // Status Filter
       if (statusFilter !== 'all' && r.status !== statusFilter) return false;
+
+      // Incident Category Filter
+      if (incidentFilter !== 'all' && (r.incidentCategory ?? 'electricity') !== incidentFilter) return false;
       
       // Search Query
       if (searchQuery.trim()) {
@@ -756,7 +821,16 @@ export default function App() {
       }
       return true;
     }).sort((a, b) => new Date(b.reportedAt).getTime() - new Date(a.reportedAt).getTime());
-  }, [reports, selectedGovFilter, statusFilter, searchQuery]);
+  }, [reports, selectedGovFilter, statusFilter, incidentFilter, searchQuery]);
+
+  const mapReports = useMemo(
+    () =>
+      filteredReports.filter(
+        (report): report is OutageReport & { latitude: number; longitude: number } =>
+          typeof report.latitude === 'number' && typeof report.longitude === 'number'
+      ),
+    [filteredReports]
+  );
 
   // Group reports purely by location (District + Delegation + Governorate) so that multiple people choosing the same location are displayed ONCE with counters!
   const groupedLocationReports = useMemo(() => {
@@ -891,9 +965,12 @@ export default function App() {
       reportedAt: new Date().toISOString(),
       upvotes: 1,
       userUpvoted: true,
-      details: wizDetails.trim() || `Power outage reported in ${wizDist.name_fr}.`,
+      details: wizDetails.trim() || `${wizIncidentCategory === 'electricity' ? 'Electricity' : wizIncidentCategory === 'water' ? 'Water' : 'Fire'} incident reported in ${wizDist.name_fr}.`,
       reporterName: wizReporter.trim() || "Anonymous Citizen",
       affectedCategory: wizCategory,
+      incidentCategory: wizIncidentCategory,
+      latitude: wizCoordinates?.latitude,
+      longitude: wizCoordinates?.longitude,
       deviceId: deviceProfile.deviceId,
       ipHash: deviceProfile.ipHash,
       reputationWeight: repWeight
@@ -924,6 +1001,9 @@ export default function App() {
     setWizDist(null);
     setWizDetails('');
     setWizReporter('');
+    setWizIncidentCategory('electricity');
+    setWizCoordinates(null);
+    setGeoStatus('GPS optional.');
     setWizardStep(1);
     setActiveTab('feed');
   };
@@ -1016,6 +1096,34 @@ export default function App() {
       setActiveTab('report');
       setWizardStep(1);
     }
+  };
+
+  const requestGeolocation = () => {
+    if (!navigator.geolocation) {
+      setGeoStatus('Geolocation is not supported by your browser.');
+      showToast('Geolocation is not supported on this browser.', 'error');
+      return;
+    }
+
+    setGeoStatus('Requesting GPS location...');
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const latitude = Number(position.coords.latitude.toFixed(6));
+        const longitude = Number(position.coords.longitude.toFixed(6));
+        setWizCoordinates({ latitude, longitude });
+        setGeoStatus(`GPS captured: ${latitude}, ${longitude}`);
+        showToast('GPS position attached to your report.', 'success');
+      },
+      () => {
+        setGeoStatus('Location denied/unavailable. You can still submit without GPS.');
+        showToast('Could not access GPS. You can continue with manual area selection.', 'info');
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 12000,
+        maximumAge: 60000
+      }
+    );
   };
 
   // Helper translations for outage types
@@ -1317,7 +1425,7 @@ export default function App() {
                 <span className="font-extrabold text-lg sm:text-2xl tracking-tight text-white">Rja3chi</span>
                 <span className="font-arabic font-bold text-[11px] sm:text-xs text-amber-400 bg-slate-800/80 px-2 py-0.5 rounded-md">رجعلكم الضو؟ (Rja3chi)</span>
               </div>
-              <p className="text-[10px] sm:text-xs text-slate-400 uppercase tracking-widest font-semibold">Crowdsourced Outage & Restoration Reports • Tunisia</p>
+              <p className="text-[10px] sm:text-xs text-slate-400 uppercase tracking-widest font-semibold">Crowdsourced Incident Reports (Electricity • Water • Fire) • Tunisia</p>
             </div>
           </div>
 
@@ -1370,6 +1478,18 @@ export default function App() {
               >
                 <Database className="w-3.5 h-3.5" />
                 <span>Locations DB</span>
+              </button>
+              <button
+                id="nav_btn_map"
+                onClick={() => setActiveTab('map')}
+                className={`px-4 py-2 rounded-full text-xs uppercase tracking-wider font-bold transition-all duration-150 flex items-center gap-2 cursor-pointer ${
+                  activeTab === 'map'
+                    ? 'bg-amber-400 text-slate-950 shadow-[0_0_15px_rgba(251,191,36,0.3)]'
+                    : 'text-slate-300 hover:bg-slate-800/60 hover:text-white'
+                }`}
+              >
+                <Map className="w-3.5 h-3.5" />
+                <span>Tunisia Map</span>
               </button>
             </div>
 
@@ -1550,7 +1670,7 @@ export default function App() {
                       </div>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-4 gap-3">
                       {/* Governorate Dropdown */}
                       <div className="flex flex-col gap-1">
                         <label id="lbl_gov_filter" className="text-xs font-bold text-slate-400 uppercase tracking-wider">Governorate</label>
@@ -1584,6 +1704,21 @@ export default function App() {
                         </select>
                       </div>
 
+                      {/* Incident Category Filter */}
+                      <div className="flex flex-col gap-1">
+                        <label className="text-xs font-bold text-slate-400 uppercase tracking-wider">Incident Type</label>
+                        <select
+                          value={incidentFilter}
+                          onChange={(e) => setIncidentFilter(e.target.value as 'all' | IncidentCategory)}
+                          className="w-full px-3 py-2.5 border border-slate-800 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-amber-400/20 focus:border-amber-400 bg-slate-950/60 text-slate-100 font-medium"
+                        >
+                          <option value="all" className="bg-slate-950 text-slate-100">All Categories</option>
+                          <option value="electricity" className="bg-slate-950 text-slate-100">Electricity</option>
+                          <option value="water" className="bg-slate-950 text-slate-100">Water</option>
+                          <option value="fire" className="bg-slate-950 text-slate-100">Fire</option>
+                        </select>
+                      </div>
+
                       {/* Reset filter button */}
                       <div className="flex items-end">
                         <button
@@ -1592,6 +1727,7 @@ export default function App() {
                             setSelectedGovFilter('all');
                             setStatusFilter('all');
                             setSearchQuery('');
+                            setIncidentFilter('all');
                             showToast("Filters reset to default view.", "info");
                           }}
                           className="w-full py-2.5 border border-slate-800 hover:border-slate-700 bg-slate-900/40 hover:bg-slate-800 text-slate-300 rounded-xl text-xs font-bold transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
@@ -1611,7 +1747,7 @@ export default function App() {
                           <AlertTriangle className="w-8 h-8 text-slate-500" />
                         </div>
                         <h3 className="text-lg font-bold text-white mb-1">No reports matching filters</h3>
-                        <p className="text-sm text-slate-400 max-w-md mx-auto">There are currently no electricity outages logged under this exact filter. Reset filters to see all reports.</p>
+                        <p className="text-sm text-slate-400 max-w-md mx-auto">There are currently no incidents logged under this exact filter. Reset filters to see all reports.</p>
                       </div>
                     ) : (
                       groupedLocationReports.map((group) => {
@@ -1760,11 +1896,14 @@ export default function App() {
                           {(() => {
                             const typeCounts: { [key in OutageType]?: number } = {};
                             const categoryCounts: { [key in AffectedCategory]?: number } = {};
+                            const incidentCounts: { [key in IncidentCategory]?: number } = {};
                             const activeReports = group.reports.filter(r => r.status === 'active');
 
                             activeReports.forEach(r => {
                               typeCounts[r.type] = (typeCounts[r.type] || 0) + 1;
                               categoryCounts[r.affectedCategory] = (categoryCounts[r.affectedCategory] || 0) + 1;
+                              const incidentCategory = r.incidentCategory ?? 'electricity';
+                              incidentCounts[incidentCategory] = (incidentCounts[incidentCategory] || 0) + 1;
                             });
 
                             // Extract only non-generic, unique custom user comments
@@ -1791,6 +1930,15 @@ export default function App() {
                                           <span>
                                             {typeCounts[typeKey] && typeCounts[typeKey]! > 1 ? `${typeCounts[typeKey]}x ` : ''}{getOutageTypeLabel(typeKey, 'fr')}
                                           </span>
+                                        </span>
+                                      ))}
+
+                                      {(Object.keys(incidentCounts) as IncidentCategory[]).map((incidentKey) => (
+                                        <span key={incidentKey} className="bg-slate-900 border border-slate-750 text-slate-200 font-bold px-2.5 py-1 rounded-lg text-xs flex items-center gap-1.5 shadow-sm">
+                                          {incidentKey === 'water' && <Droplets className="w-3.5 h-3.5 text-cyan-400 shrink-0" />}
+                                          {incidentKey === 'fire' && <Flame className="w-3.5 h-3.5 text-orange-400 shrink-0" />}
+                                          {incidentKey === 'electricity' && <Zap className="w-3.5 h-3.5 text-amber-400 shrink-0" />}
+                                          <span>{incidentCounts[incidentKey] && incidentCounts[incidentKey]! > 1 ? `${incidentCounts[incidentKey]}x ` : ''}{incidentKey}</span>
                                         </span>
                                       ))}
 
@@ -2170,8 +2318,32 @@ export default function App() {
                       </div>
 
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {/* Outage Nature */}
+                        {/* Incident Category + Outage Nature */}
                         <div>
+                          <label className="text-xs font-bold text-slate-300 uppercase tracking-wider block mb-2">Incident Category *</label>
+                          <div className="grid grid-cols-1 gap-2 mb-4">
+                            {INCIDENT_CATEGORY_OPTIONS.map((option) => {
+                              const IconComp = option.icon;
+                              return (
+                                <button
+                                  key={option.id}
+                                  type="button"
+                                  onClick={() => setWizIncidentCategory(option.id)}
+                                  className={`p-2.5 rounded-xl border flex items-center justify-between text-left transition-all cursor-pointer ${
+                                    wizIncidentCategory === option.id
+                                      ? 'bg-amber-400 text-slate-950 border-amber-300 font-black'
+                                      : 'bg-slate-950/60 border-slate-800 text-slate-300 hover:border-slate-700'
+                                  }`}
+                                >
+                                  <span className="text-xs font-bold flex items-center gap-2">
+                                    <IconComp className="w-4 h-4" />
+                                    {option.label}
+                                  </span>
+                                  <span className="text-[11px] font-arabic">{option.labelAr}</span>
+                                </button>
+                              );
+                            })}
+                          </div>
                           <label className="text-xs font-bold text-slate-300 uppercase tracking-wider block mb-2">Nature of Outage *</label>
                           <div className="space-y-2">
                             {[
@@ -2256,6 +2428,25 @@ export default function App() {
                               className="w-full px-3 py-2 border border-slate-800 rounded-xl text-xs bg-slate-950 text-slate-100 placeholder:text-slate-600 focus:outline-none focus:border-amber-400 font-medium"
                             />
                           </div>
+
+                          <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-3 space-y-2">
+                            <div className="flex items-center justify-between gap-2">
+                              <span className="text-xs font-bold text-slate-300">GPS Coordinates (optional)</span>
+                              <button
+                                type="button"
+                                onClick={requestGeolocation}
+                                className="px-2.5 py-1.5 rounded-lg text-[11px] font-bold bg-blue-500/20 border border-blue-500/30 text-blue-300 hover:bg-blue-500/30 cursor-pointer"
+                              >
+                                Use my GPS
+                              </button>
+                            </div>
+                            <p className="text-[11px] text-slate-400">{geoStatus}</p>
+                            {wizCoordinates && (
+                              <p className="text-[11px] text-emerald-300 font-mono">
+                                lat: {wizCoordinates.latitude} • lng: {wizCoordinates.longitude}
+                              </p>
+                            )}
+                          </div>
                         </div>
                       </div>
 
@@ -2309,7 +2500,7 @@ export default function App() {
                           onClick={handleReportSubmit}
                           className="px-6 py-3 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black rounded-xl text-xs uppercase tracking-wider transition-all shadow-md shadow-amber-400/20 cursor-pointer"
                         >
-                          Publish Citizen Outage Report
+                          Publish Citizen Incident Report
                         </button>
                       </div>
                     </div>
@@ -2362,6 +2553,49 @@ export default function App() {
                         <p className="text-xs text-slate-400">Calculated from restored community tickets</p>
                       </div>
                     </div>
+                  </div>
+                </motion.div>
+              )}
+
+              {/* MAP TAB */}
+              {activeTab === 'map' && (
+                <motion.div
+                  id="tab_view_map"
+                  key="map_tab"
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -15 }}
+                  transition={{ duration: 0.2 }}
+                  className="space-y-4"
+                >
+                  <div className="bg-slate-900/40 rounded-3xl border border-slate-800/80 p-6 md:p-8 backdrop-blur-sm shadow-xl space-y-4">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                      <div>
+                        <h2 className="text-xl font-extrabold text-white">Tunisia Incident Map</h2>
+                        <p className="text-xs text-slate-400">Clustered live markers for Electricity, Water, and Fire reports.</p>
+                      </div>
+                      <div className="text-xs text-slate-400 bg-slate-950/70 border border-slate-800 rounded-xl px-3 py-2">
+                        {mapReports.length} mapped reports
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap gap-2 text-xs">
+                      {INCIDENT_CATEGORY_OPTIONS.map((option) => {
+                        const IconComp = option.icon;
+                        const selected = incidentFilter === option.id || incidentFilter === 'all';
+                        return (
+                          <span key={option.id} className={`px-2.5 py-1 rounded-lg border flex items-center gap-1.5 ${selected ? 'bg-slate-900 border-slate-700 text-slate-200' : 'bg-slate-950/60 border-slate-800 text-slate-500'}`}>
+                            <IconComp className="w-3.5 h-3.5" />
+                            {option.label}
+                          </span>
+                        );
+                      })}
+                    </div>
+                    <TunisiaMapView reports={mapReports} />
+                    {mapReports.length === 0 && (
+                      <p className="text-xs text-slate-400">
+                        No GPS points available for this filter yet. New submissions can attach GPS, while older reports use governorate center fallback.
+                      </p>
+                    )}
                   </div>
                 </motion.div>
               )}
@@ -2632,6 +2866,16 @@ export default function App() {
         >
           <Database className={`w-5 h-5 ${activeTab === 'locations' ? 'text-amber-400' : 'text-slate-400'}`} />
           <span className="text-[10px] tracking-wide uppercase">Locations</span>
+        </button>
+        <button
+          id="m_nav_map"
+          onClick={() => setActiveTab('map')}
+          className={`flex flex-col items-center justify-center gap-1 flex-1 py-1 px-2 rounded-xl transition-all cursor-pointer ${
+            activeTab === 'map' ? 'text-amber-400 font-extrabold' : 'text-slate-400 font-medium'
+          }`}
+        >
+          <Map className={`w-5 h-5 ${activeTab === 'map' ? 'text-amber-400' : 'text-slate-400'}`} />
+          <span className="text-[10px] tracking-wide uppercase">Map</span>
         </button>
       </div>
 
