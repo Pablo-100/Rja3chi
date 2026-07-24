@@ -99,6 +99,12 @@ const mapReportWithDefaults = (report: OutageReport): OutageReport => {
   };
 };
 
+const stripSensitiveLocationForStorage = (report: OutageReport): OutageReport => ({
+  ...report,
+  latitude: undefined,
+  longitude: undefined
+});
+
 const INCIDENT_CATEGORY_OPTIONS: Array<{ id: IncidentCategory; label: string; labelAr: string; icon: typeof Zap }> = [
   { id: 'electricity', label: 'Electricity (Dhaw)', labelAr: 'كهرباء', icon: Zap },
   { id: 'water', label: 'Water (Mee)', labelAr: 'مياه', icon: Droplets },
@@ -575,7 +581,7 @@ export default function App() {
 
         const mergedReports = Array.from(reportMap.values()).map(mapReportWithDefaults);
         setReports(mergedReports);
-        localStorage.setItem('rja3chi_reports', JSON.stringify(mergedReports));
+        localStorage.setItem('rja3chi_reports', JSON.stringify(mergedReports.map(stripSensitiveLocationForStorage)));
       },
       (error) => {
         handleFirestoreError(error, OperationType.GET, 'reports');
@@ -725,7 +731,7 @@ export default function App() {
   const saveReports = (newReports: OutageReport[]) => {
     const normalized = newReports.map(mapReportWithDefaults);
     setReports(normalized);
-    localStorage.setItem('rja3chi_reports', JSON.stringify(normalized));
+    localStorage.setItem('rja3chi_reports', JSON.stringify(normalized.map(stripSensitiveLocationForStorage)));
 
     // Save/update each report to Firestore cloud database
     normalized.forEach(r => {
