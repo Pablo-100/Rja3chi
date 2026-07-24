@@ -23,6 +23,7 @@ export type OutageType = 'blackout' | 'partial' | 'voltage' | 'streetlights';
 export type OutageStatus = 'active' | 'restored';
 
 export type AffectedCategory = 'home' | 'business' | 'public';
+export type IncidentCategory = 'electricity' | 'water' | 'fire';
 
 export interface OutageReport {
   id: string;
@@ -44,6 +45,9 @@ export interface OutageReport {
   details: string;
   reporterName: string;
   affectedCategory: AffectedCategory;
+  incidentCategory?: IncidentCategory;
+  latitude?: number;
+  longitude?: number;
   deviceId?: string;
   ipHash?: string;
   reputationWeight?: number;

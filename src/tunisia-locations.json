@@ -9,12 +9,36 @@
         "name_ar": "قرطاج",
         "name_fr": "Carthage",
         "districts": [
-          { "id": 10101, "name_ar": "سيدي بوسعيد", "name_fr": "Sidi Bou Saïd" },
-          { "id": 10102, "name_ar": "أميلكار", "name_fr": "Amilcar" },
-          { "id": 10103, "name_ar": "قرطاج بيرصا", "name_fr": "Carthage Byrsa" },
-          { "id": 10104, "name_ar": "قرطاج الشاطئ", "name_fr": "Carthage Plage" },
-          { "id": 10105, "name_ar": "الياسمينة", "name_fr": "El Yasmina" },
-          { "id": 10106, "name_ar": "حي محمد علي", "name_fr": "Hay Mohamed Ali" }
+          {
+            "id": 10102,
+            "name_ar": "أميلكار",
+            "name_fr": "Amilcar"
+          },
+          {
+            "id": 10103,
+            "name_ar": "قرطاج بيرصا",
+            "name_fr": "Carthage Byrsa"
+          },
+          {
+            "id": 10104,
+            "name_ar": "قرطاج الشاطئ",
+            "name_fr": "Carthage Plage"
+          },
+          {
+            "id": 10105,
+            "name_ar": "الياسمينة",
+            "name_fr": "El Yasmina"
+          },
+          {
+            "id": 10106,
+            "name_ar": "حي محمد علي",
+            "name_fr": "Hay Mohamed Ali"
+          },
+          {
+            "id": 10101,
+            "name_ar": "سيدي بوسعيد",
+            "name_fr": "Sidi Bou Saïd"
+          }
         ]
       },
       {
@@ -22,18 +46,66 @@
         "name_ar": "المدينة",
         "name_fr": "La Médina",
         "districts": [
-          { "id": 10201, "name_ar": "المدينة", "name_fr": "Médina" },
-          { "id": 10202, "name_ar": "الحفصية", "name_fr": "El Hafsia" },
-          { "id": 10203, "name_ar": "باب البنات", "name_fr": "Bab El Banat" },
-          { "id": 10204, "name_ar": "سوق النحاس", "name_fr": "Souk Ennahas" },
-          { "id": 10205, "name_ar": "الأسواق", "name_fr": "Les Souks" },
-          { "id": 10206, "name_ar": "باب المنارة", "name_fr": "Bab Menara" },
-          { "id": 10207, "name_ar": "تربة الباي", "name_fr": "Torba El Bey" },
-          { "id": 10208, "name_ar": "الزرارعية", "name_fr": "Ez Zaraaria" },
-          { "id": 10209, "name_ar": "سيدي علي عزوز", "name_fr": "Sidi Ali Azzouz" },
-          { "id": 10210, "name_ar": "التوفيق", "name_fr": "Ettoufik" },
-          { "id": 10211, "name_ar": "الصباغين", "name_fr": "Essabaghine" },
-          { "id": 10212, "name_ar": "سيدي بومنديل", "name_fr": "Sidi Bou Mendil" }
+          {
+            "id": 10203,
+            "name_ar": "باب البنات",
+            "name_fr": "Bab El Banat"
+          },
+          {
+            "id": 10206,
+            "name_ar": "باب المنارة",
+            "name_fr": "Bab Menara"
+          },
+          {
+            "id": 10202,
+            "name_ar": "الحفصية",
+            "name_fr": "El Hafsia"
+          },
+          {
+            "id": 10211,
+            "name_ar": "الصباغين",
+            "name_fr": "Essabaghine"
+          },
+          {
+            "id": 10210,
+            "name_ar": "التوفيق",
+            "name_fr": "Ettoufik"
+          },
+          {
+            "id": 10208,
+            "name_ar": "الزرارعية",
+            "name_fr": "Ez Zaraaria"
+          },
+          {
+            "id": 10205,
+            "name_ar": "الأسواق",
+            "name_fr": "Les Souks"
+          },
+          {
+            "id": 10201,
+            "name_ar": "المدينة",
+            "name_fr": "Médina"
+          },
+          {
+            "id": 10209,
+            "name_ar": "سيدي علي عزوز",
+            "name_fr": "Sidi Ali Azzouz"
+          },
+          {
+            "id": 10212,
+            "name_ar": "سيدي بومنديل",
+            "name_fr": "Sidi Bou Mendil"
+          },
+          {
+            "id": 10204,
+            "name_ar": "سوق النحاس",
+            "name_fr": "Souk Ennahas"
+          },
+          {
+            "id": 10207,
+            "name_ar": "تربة الباي",
+            "name_fr": "Torba El Bey"
+          }
         ]
       },
       {
@@ -41,14 +113,46 @@
         "name_ar": "باب البحر",
         "name_fr": "Bab El Bhar",
         "districts": [
-          { "id": 10301, "name_ar": "باب البحر", "name_fr": "Bab El Bhar" },
-          { "id": 10302, "name_ar": "الحدائق", "name_fr": "El Hadaik" },
-          { "id": 10303, "name_ar": "بحيرة تونس", "name_fr": "Lac de Tunis" },
-          { "id": 10304, "name_ar": "المنجي سليم", "name_fr": "Mongi Slim" },
-          { "id": 10305, "name_ar": "الحبيب ثامر", "name_fr": "Habib Thameur" },
-          { "id": 10306, "name_ar": "الطيب المهيري", "name_fr": "Taieb Mhiri" },
-          { "id": 10307, "name_ar": "الهادي شاكر", "name_fr": "Hédi Chaker" },
-          { "id": 10308, "name_ar": "سيدي البحري", "name_fr": "Sidi El Bahri" }
+          {
+            "id": 10301,
+            "name_ar": "باب البحر",
+            "name_fr": "Bab El Bhar"
+          },
+          {
+            "id": 10302,
+            "name_ar": "الحدائق",
+            "name_fr": "El Hadaik"
+          },
+          {
+            "id": 10305,
+            "name_ar": "الحبيب ثامر",
+            "name_fr": "Habib Thameur"
+          },
+          {
+            "id": 10307,
+            "name_ar": "الهادي شاكر",
+            "name_fr": "Hédi Chaker"
+          },
+          {
+            "id": 10303,
+            "name_ar": "بحيرة تونس",
+            "name_fr": "Lac de Tunis"
+          },
+          {
+            "id": 10304,
+            "name_ar": "المنجي سليم",
+            "name_fr": "Mongi Slim"
+          },
+          {
+            "id": 10308,
+            "name_ar": "سيدي البحري",
+            "name_fr": "Sidi El Bahri"
+          },
+          {
+            "id": 10306,
+            "name_ar": "الطيب المهيري",
+            "name_fr": "Taieb Mhiri"
+          }
         ]
       },
       {
@@ -56,17 +160,61 @@
         "name_ar": "باب سويقة",
         "name_fr": "Bab Souika",
         "districts": [
-          { "id": 10401, "name_ar": "ترنجة", "name_fr": "Tronja" },
-          { "id": 10402, "name_ar": "باب الخضراء", "name_fr": "Bab El Khadra" },
-          { "id": 10403, "name_ar": "باب سعدون", "name_fr": "Bab Saadoun" },
-          { "id": 10404, "name_ar": "برج زوارة", "name_fr": "Borj Zouara" },
-          { "id": 10405, "name_ar": "باب العسل", "name_fr": "Bab El Assel" },
-          { "id": 10406, "name_ar": "الحلفاوين", "name_fr": "El Halfaouine" },
-          { "id": 10407, "name_ar": "باب سويقة", "name_fr": "Bab Souika" },
-          { "id": 10408, "name_ar": "باب سيدي عبد السلام", "name_fr": "Bab Sidi Abdessalem" },
-          { "id": 10409, "name_ar": "الزاوية البكرية", "name_fr": "Zaouiat El Bekria" },
-          { "id": 10410, "name_ar": "حمام الرميمي", "name_fr": "Hammam Rmimi" },
-          { "id": 10411, "name_ar": "سيدي الجبالي", "name_fr": "Sidi El Jebali" }
+          {
+            "id": 10405,
+            "name_ar": "باب العسل",
+            "name_fr": "Bab El Assel"
+          },
+          {
+            "id": 10402,
+            "name_ar": "باب الخضراء",
+            "name_fr": "Bab El Khadra"
+          },
+          {
+            "id": 10403,
+            "name_ar": "باب سعدون",
+            "name_fr": "Bab Saadoun"
+          },
+          {
+            "id": 10408,
+            "name_ar": "باب سيدي عبد السلام",
+            "name_fr": "Bab Sidi Abdessalem"
+          },
+          {
+            "id": 10407,
+            "name_ar": "باب سويقة",
+            "name_fr": "Bab Souika"
+          },
+          {
+            "id": 10404,
+            "name_ar": "برج زوارة",
+            "name_fr": "Borj Zouara"
+          },
+          {
+            "id": 10406,
+            "name_ar": "الحلفاوين",
+            "name_fr": "El Halfaouine"
+          },
+          {
+            "id": 10410,
+            "name_ar": "حمام الرميمي",
+            "name_fr": "Hammam Rmimi"
+          },
+          {
+            "id": 10411,
+            "name_ar": "سيدي الجبالي",
+            "name_fr": "Sidi El Jebali"
+          },
+          {
+            "id": 10401,
+            "name_ar": "ترنجة",
+            "name_fr": "Tronja"
+          },
+          {
+            "id": 10409,
+            "name_ar": "الزاوية البكرية",
+            "name_fr": "Zaouiat El Bekria"
+          }
         ]
       },
       {
@@ -74,12 +222,36 @@
         "name_ar": "العمران",
         "name_fr": "El Omrane",
         "districts": [
-          { "id": 10501, "name_ar": "العمران", "name_fr": "El Omrane" },
-          { "id": 10502, "name_ar": "الجبل الأحمر", "name_fr": "Jebel El Ahmar" },
-          { "id": 10503, "name_ar": "حي الزياتين", "name_fr": "Hay Ez Zitoun" },
-          { "id": 10504, "name_ar": "راس الطابية", "name_fr": "Ras Tabia" },
-          { "id": 10505, "name_ar": "بئر عتيق", "name_fr": "Bir Atig" },
-          { "id": 10506, "name_ar": "وادي السبعي", "name_fr": "Oued Es Sebai" }
+          {
+            "id": 10505,
+            "name_ar": "بئر عتيق",
+            "name_fr": "Bir Atig"
+          },
+          {
+            "id": 10501,
+            "name_ar": "العمران",
+            "name_fr": "El Omrane"
+          },
+          {
+            "id": 10503,
+            "name_ar": "حي الزياتين",
+            "name_fr": "Hay Ez Zitoun"
+          },
+          {
+            "id": 10502,
+            "name_ar": "الجبل الأحمر",
+            "name_fr": "Jebel El Ahmar"
+          },
+          {
+            "id": 10506,
+            "name_ar": "وادي السبعي",
+            "name_fr": "Oued Es Sebai"
+          },
+          {
+            "id": 10504,
+            "name_ar": "راس الطابية",
+            "name_fr": "Ras Tabia"
+          }
         ]
       },
       {
@@ -87,15 +259,51 @@
         "name_ar": "العمران الأعلى",
         "name_fr": "El Omrane Supérieur",
         "districts": [
-          { "id": 10601, "name_ar": "حي بن خلدون الأول", "name_fr": "Hay Ibn Khaldoun 1" },
-          { "id": 10602, "name_ar": "الرمانة", "name_fr": "Er Rommana" },
-          { "id": 10603, "name_ar": "حي بن خلدون الثاني", "name_fr": "Hay Ibn Khaldoun 2" },
-          { "id": 10604, "name_ar": "حي بن خلدون السادس", "name_fr": "Hay Ibn Khaldoun 6" },
-          { "id": 10605, "name_ar": "حي الانطلاقة", "name_fr": "Hay El Intilaka" },
-          { "id": 10606, "name_ar": "العمران الأعلى", "name_fr": "El Omrane Supérieur" },
-          { "id": 10607, "name_ar": "النسيم", "name_fr": "Ennasim" },
-          { "id": 10608, "name_ar": "أحمد التليلي", "name_fr": "Ahmed Tlili" },
-          { "id": 10609, "name_ar": "الصديق", "name_fr": "Essadik" }
+          {
+            "id": 10608,
+            "name_ar": "أحمد التليلي",
+            "name_fr": "Ahmed Tlili"
+          },
+          {
+            "id": 10606,
+            "name_ar": "العمران الأعلى",
+            "name_fr": "El Omrane Supérieur"
+          },
+          {
+            "id": 10607,
+            "name_ar": "النسيم",
+            "name_fr": "Ennasim"
+          },
+          {
+            "id": 10602,
+            "name_ar": "الرمانة",
+            "name_fr": "Er Rommana"
+          },
+          {
+            "id": 10609,
+            "name_ar": "الصديق",
+            "name_fr": "Essadik"
+          },
+          {
+            "id": 10605,
+            "name_ar": "حي الانطلاقة",
+            "name_fr": "Hay El Intilaka"
+          },
+          {
+            "id": 10601,
+            "name_ar": "حي بن خلدون الأول",
+            "name_fr": "Hay Ibn Khaldoun 1"
+          },
+          {
+            "id": 10603,
+            "name_ar": "حي بن خلدون الثاني",
+            "name_fr": "Hay Ibn Khaldoun 2"
+          },
+          {
+            "id": 10604,
+            "name_ar": "حي بن خلدون السادس",
+            "name_fr": "Hay Ibn Khaldoun 6"
+          }
         ]
       },
       {
@@ -103,11 +311,31 @@
         "name_ar": "التحرير",
         "name_fr": "Ettahrir",
         "districts": [
-          { "id": 10701, "name_ar": "التحرير الأول", "name_fr": "Ettahrir 1" },
-          { "id": 10702, "name_ar": "التحرير الثاني", "name_fr": "Ettahrir 2" },
-          { "id": 10703, "name_ar": "التحرير الثالث", "name_fr": "Ettahrir 3" },
-          { "id": 10704, "name_ar": "التحرير العلوي", "name_fr": "Ettahrir El Aloui" },
-          { "id": 10705, "name_ar": "الحديقة", "name_fr": "El Hadika" }
+          {
+            "id": 10705,
+            "name_ar": "الحديقة",
+            "name_fr": "El Hadika"
+          },
+          {
+            "id": 10701,
+            "name_ar": "التحرير الأول",
+            "name_fr": "Ettahrir 1"
+          },
+          {
+            "id": 10702,
+            "name_ar": "التحرير الثاني",
+            "name_fr": "Ettahrir 2"
+          },
+          {
+            "id": 10703,
+            "name_ar": "التحرير الثالث",
+            "name_fr": "Ettahrir 3"
+          },
+          {
+            "id": 10704,
+            "name_ar": "التحرير العلوي",
+            "name_fr": "Ettahrir El Aloui"
+          }
         ]
       },
       {
@@ -115,11 +343,31 @@
         "name_ar": "المنزه",
         "name_fr": "El Menzah",
         "districts": [
-          { "id": 10801, "name_ar": "غرة جوان", "name_fr": "Gharret Jwen" },
-          { "id": 10802, "name_ar": "المنزه", "name_fr": "El Menzah" },
-          { "id": 10803, "name_ar": "الفتح", "name_fr": "El Fath" },
-          { "id": 10804, "name_ar": "المنار", "name_fr": "El Manar" },
-          { "id": 10805, "name_ar": "المنار(1)", "name_fr": "El Manar 1" }
+          {
+            "id": 10803,
+            "name_ar": "الفتح",
+            "name_fr": "El Fath"
+          },
+          {
+            "id": 10804,
+            "name_ar": "المنار",
+            "name_fr": "El Manar"
+          },
+          {
+            "id": 10805,
+            "name_ar": "المنار(1)",
+            "name_fr": "El Manar 1"
+          },
+          {
+            "id": 10802,
+            "name_ar": "المنزه",
+            "name_fr": "El Menzah"
+          },
+          {
+            "id": 10801,
+            "name_ar": "غرة جوان",
+            "name_fr": "Gharret Jwen"
+          }
         ]
       },
       {
@@ -127,14 +375,46 @@
         "name_ar": "حي الخضراء",
         "name_fr": "Hay El Khadra",
         "districts": [
-          { "id": 10901, "name_ar": "حي الخضراء", "name_fr": "Hay El Khadra" },
-          { "id": 10902, "name_ar": "خير الدين باشا", "name_fr": "Kheireddine Pacha" },
-          { "id": 10903, "name_ar": "حي الحدائق", "name_fr": "Hay El Hadaik" },
-          { "id": 10904, "name_ar": "حي السلام", "name_fr": "Hay Essalem" },
-          { "id": 10905, "name_ar": "علي البلهوان", "name_fr": "Ali Belhouane" },
-          { "id": 10906, "name_ar": "فرحات حشاد", "name_fr": "Farhat Hached" },
-          { "id": 10907, "name_ar": "الشرقية", "name_fr": "La Charguia" },
-          { "id": 10908, "name_ar": "البحيرة", "name_fr": "El Bouhaira" }
+          {
+            "id": 10905,
+            "name_ar": "علي البلهوان",
+            "name_fr": "Ali Belhouane"
+          },
+          {
+            "id": 10908,
+            "name_ar": "البحيرة",
+            "name_fr": "El Bouhaira"
+          },
+          {
+            "id": 10906,
+            "name_ar": "فرحات حشاد",
+            "name_fr": "Farhat Hached"
+          },
+          {
+            "id": 10903,
+            "name_ar": "حي الحدائق",
+            "name_fr": "Hay El Hadaik"
+          },
+          {
+            "id": 10901,
+            "name_ar": "حي الخضراء",
+            "name_fr": "Hay El Khadra"
+          },
+          {
+            "id": 10904,
+            "name_ar": "حي السلام",
+            "name_fr": "Hay Essalem"
+          },
+          {
+            "id": 10902,
+            "name_ar": "خير الدين باشا",
+            "name_fr": "Kheireddine Pacha"
+          },
+          {
+            "id": 10907,
+            "name_ar": "الشرقية",
+            "name_fr": "La Charguia"
+          }
         ]
       },
       {
@@ -142,20 +422,76 @@
         "name_ar": "باردو",
         "name_fr": "Le Bardo",
         "districts": [
-          { "id": 11001, "name_ar": "باردو", "name_fr": "Le Bardo" },
-          { "id": 11002, "name_ar": "باردو الشمالي", "name_fr": "Bardo Nord" },
-          { "id": 11003, "name_ar": "باردو الجنوبي", "name_fr": "Bardo Sud" },
-          { "id": 11004, "name_ar": "الحديقة", "name_fr": "El Hadika" },
-          { "id": 11005, "name_ar": "بوشوشة", "name_fr": "Bouchoucha" },
-          { "id": 11006, "name_ar": "الاقامة الطيبة", "name_fr": "El Ikama Ettayba" },
-          { "id": 11007, "name_ar": "خزندار", "name_fr": "Khaznadar" },
-          { "id": 11008, "name_ar": "الفتح", "name_fr": "El Fath" },
-          { "id": 11009, "name_ar": "قصر السعيد", "name_fr": "Ksar Said" },
-          { "id": 11010, "name_ar": "قصر السعيد الثاني", "name_fr": "Ksar Said 2" },
-          { "id": 11011, "name_ar": "البساتين", "name_fr": "El Bassatine" },
-          { "id": 11012, "name_ar": "السعادة", "name_fr": "Essaada" },
-          { "id": 11013, "name_ar": "قصر البرطال", "name_fr": "Ksar El Bartal" },
-          { "id": 11014, "name_ar": "ابن سيناء", "name_fr": "Ibn Sina" }
+          {
+            "id": 11002,
+            "name_ar": "باردو الشمالي",
+            "name_fr": "Bardo Nord"
+          },
+          {
+            "id": 11003,
+            "name_ar": "باردو الجنوبي",
+            "name_fr": "Bardo Sud"
+          },
+          {
+            "id": 11005,
+            "name_ar": "بوشوشة",
+            "name_fr": "Bouchoucha"
+          },
+          {
+            "id": 11011,
+            "name_ar": "البساتين",
+            "name_fr": "El Bassatine"
+          },
+          {
+            "id": 11008,
+            "name_ar": "الفتح",
+            "name_fr": "El Fath"
+          },
+          {
+            "id": 11004,
+            "name_ar": "الحديقة",
+            "name_fr": "El Hadika"
+          },
+          {
+            "id": 11006,
+            "name_ar": "الاقامة الطيبة",
+            "name_fr": "El Ikama Ettayba"
+          },
+          {
+            "id": 11012,
+            "name_ar": "السعادة",
+            "name_fr": "Essaada"
+          },
+          {
+            "id": 11014,
+            "name_ar": "ابن سيناء",
+            "name_fr": "Ibn Sina"
+          },
+          {
+            "id": 11007,
+            "name_ar": "خزندار",
+            "name_fr": "Khaznadar"
+          },
+          {
+            "id": 11013,
+            "name_ar": "قصر البرطال",
+            "name_fr": "Ksar El Bartal"
+          },
+          {
+            "id": 11009,
+            "name_ar": "قصر السعيد",
+            "name_fr": "Ksar Said"
+          },
+          {
+            "id": 11010,
+            "name_ar": "قصر السعيد الثاني",
+            "name_fr": "Ksar Said 2"
+          },
+          {
+            "id": 11001,
+            "name_ar": "باردو",
+            "name_fr": "Le Bardo"
+          }
         ]
       },
       {
@@ -163,12 +499,36 @@
         "name_ar": "السيجومي",
         "name_fr": "El Séjoumi",
         "districts": [
-          { "id": 11101, "name_ar": "حي هلال", "name_fr": "Hay Helal" },
-          { "id": 11102, "name_ar": "علي البلهوان", "name_fr": "Ali Belhouane" },
-          { "id": 11103, "name_ar": "النجاح", "name_fr": "Ennajah" },
-          { "id": 11104, "name_ar": "حي الشهداء", "name_fr": "Hay Echouhada" },
-          { "id": 11105, "name_ar": "بئر عنيبة", "name_fr": "Bir Aniba" },
-          { "id": 11106, "name_ar": "الملاسين", "name_fr": "El Mellassine" }
+          {
+            "id": 11102,
+            "name_ar": "علي البلهوان",
+            "name_fr": "Ali Belhouane"
+          },
+          {
+            "id": 11105,
+            "name_ar": "بئر عنيبة",
+            "name_fr": "Bir Aniba"
+          },
+          {
+            "id": 11106,
+            "name_ar": "الملاسين",
+            "name_fr": "El Mellassine"
+          },
+          {
+            "id": 11103,
+            "name_ar": "النجاح",
+            "name_fr": "Ennajah"
+          },
+          {
+            "id": 11104,
+            "name_ar": "حي الشهداء",
+            "name_fr": "Hay Echouhada"
+          },
+          {
+            "id": 11101,
+            "name_ar": "حي هلال",
+            "name_fr": "Hay Helal"
+          }
         ]
       },
       {
@@ -176,12 +536,36 @@
         "name_ar": "الزهور",
         "name_fr": "Ezzouhour",
         "districts": [
-          { "id": 11201, "name_ar": "الزهور", "name_fr": "Ezzouhour" },
-          { "id": 11202, "name_ar": "الزهور الرابع", "name_fr": "Ezzouhour 4" },
-          { "id": 11203, "name_ar": "السعادة", "name_fr": "Essaada" },
-          { "id": 11204, "name_ar": "السمران", "name_fr": "Es Semrane" },
-          { "id": 11205, "name_ar": "حي الطيران", "name_fr": "Hay Ettairane" },
-          { "id": 11206, "name_ar": "باش حانبة", "name_fr": "Bach Hamba" }
+          {
+            "id": 11206,
+            "name_ar": "باش حانبة",
+            "name_fr": "Bach Hamba"
+          },
+          {
+            "id": 11204,
+            "name_ar": "السمران",
+            "name_fr": "Es Semrane"
+          },
+          {
+            "id": 11203,
+            "name_ar": "السعادة",
+            "name_fr": "Essaada"
+          },
+          {
+            "id": 11201,
+            "name_ar": "الزهور",
+            "name_fr": "Ezzouhour"
+          },
+          {
+            "id": 11202,
+            "name_ar": "الزهور الرابع",
+            "name_fr": "Ezzouhour 4"
+          },
+          {
+            "id": 11205,
+            "name_ar": "حي الطيران",
+            "name_fr": "Hay Ettairane"
+          }
         ]
       },
       {
@@ -189,15 +573,51 @@
         "name_ar": "الحرائرية",
         "name_fr": "El Hraïria",
         "districts": [
-          { "id": 11301, "name_ar": "الحرائرية", "name_fr": "El Hraïria" },
-          { "id": 11302, "name_ar": "الزهور الخامس", "name_fr": "Ezzouhour 5" },
-          { "id": 11303, "name_ar": "العقبة", "name_fr": "El Akba" },
-          { "id": 11304, "name_ar": "العقبة العليا", "name_fr": "El Akba El Oulia" },
-          { "id": 11305, "name_ar": "غدير القلة", "name_fr": "Rhedir El Golla" },
-          { "id": 11306, "name_ar": "العنتيت", "name_fr": "El Antit" },
-          { "id": 11307, "name_ar": "الفلة", "name_fr": "El Folla" },
-          { "id": 11308, "name_ar": "طارق بن زياد", "name_fr": "Tarik Ibn Ziad" },
-          { "id": 11309, "name_ar": "الزهروني", "name_fr": "Ez Zahrouni" }
+          {
+            "id": 11303,
+            "name_ar": "العقبة",
+            "name_fr": "El Akba"
+          },
+          {
+            "id": 11304,
+            "name_ar": "العقبة العليا",
+            "name_fr": "El Akba El Oulia"
+          },
+          {
+            "id": 11306,
+            "name_ar": "العنتيت",
+            "name_fr": "El Antit"
+          },
+          {
+            "id": 11307,
+            "name_ar": "الفلة",
+            "name_fr": "El Folla"
+          },
+          {
+            "id": 11301,
+            "name_ar": "الحرائرية",
+            "name_fr": "El Hraïria"
+          },
+          {
+            "id": 11309,
+            "name_ar": "الزهروني",
+            "name_fr": "Ez Zahrouni"
+          },
+          {
+            "id": 11302,
+            "name_ar": "الزهور الخامس",
+            "name_fr": "Ezzouhour 5"
+          },
+          {
+            "id": 11305,
+            "name_ar": "غدير القلة",
+            "name_fr": "Rhedir El Golla"
+          },
+          {
+            "id": 11308,
+            "name_ar": "طارق بن زياد",
+            "name_fr": "Tarik Ibn Ziad"
+          }
         ]
       },
       {
@@ -205,15 +625,51 @@
         "name_ar": "سيدي حسين",
         "name_fr": "Sidi Hassine",
         "districts": [
-          { "id": 11401, "name_ar": "برج شاكير", "name_fr": "Borj Chaker" },
-          { "id": 11402, "name_ar": "الجيارة", "name_fr": "El Jayara" },
-          { "id": 11403, "name_ar": "سيدي حسين", "name_fr": "Sidi Hassine" },
-          { "id": 11404, "name_ar": "25 جويلية", "name_fr": "25 Juillet" },
-          { "id": 11405, "name_ar": "14 جانفي", "name_fr": "14 Janvier" },
-          { "id": 11406, "name_ar": "20 مارس", "name_fr": "20 Mars" },
-          { "id": 11407, "name_ar": "عطار", "name_fr": "Attar" },
-          { "id": 11408, "name_ar": "بيرين", "name_fr": "Birine" },
-          { "id": 11409, "name_ar": "مغيرة انزال", "name_fr": "Mghira Inzel" }
+          {
+            "id": 11405,
+            "name_ar": "14 جانفي",
+            "name_fr": "14 Janvier"
+          },
+          {
+            "id": 11406,
+            "name_ar": "20 مارس",
+            "name_fr": "20 Mars"
+          },
+          {
+            "id": 11404,
+            "name_ar": "25 جويلية",
+            "name_fr": "25 Juillet"
+          },
+          {
+            "id": 11407,
+            "name_ar": "عطار",
+            "name_fr": "Attar"
+          },
+          {
+            "id": 11408,
+            "name_ar": "بيرين",
+            "name_fr": "Birine"
+          },
+          {
+            "id": 11401,
+            "name_ar": "برج شاكير",
+            "name_fr": "Borj Chaker"
+          },
+          {
+            "id": 11402,
+            "name_ar": "الجيارة",
+            "name_fr": "El Jayara"
+          },
+          {
+            "id": 11409,
+            "name_ar": "مغيرة انزال",
+            "name_fr": "Mghira Inzel"
+          },
+          {
+            "id": 11403,
+            "name_ar": "سيدي حسين",
+            "name_fr": "Sidi Hassine"
+          }
         ]
       },
       {
@@ -221,12 +677,36 @@
         "name_ar": "الوردية",
         "name_fr": "El Ouardia",
         "districts": [
-          { "id": 11501, "name_ar": "الوردية", "name_fr": "El Ouardia" },
-          { "id": 11502, "name_ar": "بوقطفة", "name_fr": "Boukotfa" },
-          { "id": 11503, "name_ar": "الطاهر صفر", "name_fr": "Tahar Sfar" },
-          { "id": 11504, "name_ar": "حي الازدهار", "name_fr": "Hay El Izdihar" },
-          { "id": 11505, "name_ar": "حي محمد علي", "name_fr": "Hay Mohamed Ali" },
-          { "id": 11506, "name_ar": "سيدي بلحسن", "name_fr": "Sidi Belhassen" }
+          {
+            "id": 11502,
+            "name_ar": "بوقطفة",
+            "name_fr": "Boukotfa"
+          },
+          {
+            "id": 11501,
+            "name_ar": "الوردية",
+            "name_fr": "El Ouardia"
+          },
+          {
+            "id": 11504,
+            "name_ar": "حي الازدهار",
+            "name_fr": "Hay El Izdihar"
+          },
+          {
+            "id": 11505,
+            "name_ar": "حي محمد علي",
+            "name_fr": "Hay Mohamed Ali"
+          },
+          {
+            "id": 11506,
+            "name_ar": "سيدي بلحسن",
+            "name_fr": "Sidi Belhassen"
+          },
+          {
+            "id": 11503,
+            "name_ar": "الطاهر صفر",
+            "name_fr": "Tahar Sfar"
+          }
         ]
       },
       {
@@ -234,14 +714,46 @@
         "name_ar": "الكبارية",
         "name_fr": "El Kabaria",
         "districts": [
-          { "id": 11601, "name_ar": "الكبارية(1)", "name_fr": "El Kabaria 1" },
-          { "id": 11602, "name_ar": "الكبارية(2)", "name_fr": "El Kabaria 2" },
-          { "id": 11603, "name_ar": "الكبارية(3)", "name_fr": "El Kabaria 3" },
-          { "id": 11604, "name_ar": "الكبارية(4)", "name_fr": "El Kabaria 4" },
-          { "id": 11605, "name_ar": "حي النور", "name_fr": "Hay Ennour" },
-          { "id": 11606, "name_ar": "ابن سيناء(1)", "name_fr": "Ibn Sina 1" },
-          { "id": 11607, "name_ar": "ابن سيناء(2)", "name_fr": "Ibn Sina 2" },
-          { "id": 11608, "name_ar": "المروج(2)", "name_fr": "El Mourouj 2" }
+          {
+            "id": 11601,
+            "name_ar": "الكبارية(1)",
+            "name_fr": "El Kabaria 1"
+          },
+          {
+            "id": 11602,
+            "name_ar": "الكبارية(2)",
+            "name_fr": "El Kabaria 2"
+          },
+          {
+            "id": 11603,
+            "name_ar": "الكبارية(3)",
+            "name_fr": "El Kabaria 3"
+          },
+          {
+            "id": 11604,
+            "name_ar": "الكبارية(4)",
+            "name_fr": "El Kabaria 4"
+          },
+          {
+            "id": 11608,
+            "name_ar": "المروج(2)",
+            "name_fr": "El Mourouj 2"
+          },
+          {
+            "id": 11605,
+            "name_ar": "حي النور",
+            "name_fr": "Hay Ennour"
+          },
+          {
+            "id": 11606,
+            "name_ar": "ابن سيناء(1)",
+            "name_fr": "Ibn Sina 1"
+          },
+          {
+            "id": 11607,
+            "name_ar": "ابن سيناء(2)",
+            "name_fr": "Ibn Sina 2"
+          }
         ]
       },
       {
@@ -249,12 +761,36 @@
         "name_ar": "سيدي البشير",
         "name_fr": "Sidi El Béchir",
         "districts": [
-          { "id": 11701, "name_ar": "سيدي البشير", "name_fr": "Sidi El Béchir" },
-          { "id": 11702, "name_ar": "سيدي منصور", "name_fr": "Sidi Mansour" },
-          { "id": 11703, "name_ar": "معقل الزعيم", "name_fr": "Maakel Ezzaim" },
-          { "id": 11704, "name_ar": "فرحات حشاد", "name_fr": "Farhat Hached" },
-          { "id": 11705, "name_ar": "أبو القاسم الشابي", "name_fr": "Aboulkacem Chebbi" },
-          { "id": 11706, "name_ar": "السيدة المنوبية", "name_fr": "Essaida El Manoubia" }
+          {
+            "id": 11705,
+            "name_ar": "أبو القاسم الشابي",
+            "name_fr": "Aboulkacem Chebbi"
+          },
+          {
+            "id": 11706,
+            "name_ar": "السيدة المنوبية",
+            "name_fr": "Essaida El Manoubia"
+          },
+          {
+            "id": 11704,
+            "name_ar": "فرحات حشاد",
+            "name_fr": "Farhat Hached"
+          },
+          {
+            "id": 11703,
+            "name_ar": "معقل الزعيم",
+            "name_fr": "Maakel Ezzaim"
+          },
+          {
+            "id": 11701,
+            "name_ar": "سيدي البشير",
+            "name_fr": "Sidi El Béchir"
+          },
+          {
+            "id": 11702,
+            "name_ar": "سيدي منصور",
+            "name_fr": "Sidi Mansour"
+          }
         ]
       },
       {
@@ -262,13 +798,41 @@
         "name_ar": "جبل الجلود",
         "name_fr": "Jebel Jelloud",
         "districts": [
-          { "id": 11801, "name_ar": "سيدي فتح الله", "name_fr": "Sidi Fathallah" },
-          { "id": 11802, "name_ar": "علي باش حانبة", "name_fr": "Ali Bach Hamba" },
-          { "id": 11803, "name_ar": "القرجومة", "name_fr": "El Gargouma" },
-          { "id": 11804, "name_ar": "حي الفتح", "name_fr": "Hay El Fath" },
-          { "id": 11805, "name_ar": "السبخاء", "name_fr": "Es Sebkha" },
-          { "id": 11806, "name_ar": "الافران", "name_fr": "El Afrane" },
-          { "id": 11807, "name_ar": "جبل الجلود", "name_fr": "Jebel Jelloud" }
+          {
+            "id": 11802,
+            "name_ar": "علي باش حانبة",
+            "name_fr": "Ali Bach Hamba"
+          },
+          {
+            "id": 11806,
+            "name_ar": "الافران",
+            "name_fr": "El Afrane"
+          },
+          {
+            "id": 11803,
+            "name_ar": "القرجومة",
+            "name_fr": "El Gargouma"
+          },
+          {
+            "id": 11805,
+            "name_ar": "السبخاء",
+            "name_fr": "Es Sebkha"
+          },
+          {
+            "id": 11804,
+            "name_ar": "حي الفتح",
+            "name_fr": "Hay El Fath"
+          },
+          {
+            "id": 11807,
+            "name_ar": "جبل الجلود",
+            "name_fr": "Jebel Jelloud"
+          },
+          {
+            "id": 11801,
+            "name_ar": "سيدي فتح الله",
+            "name_fr": "Sidi Fathallah"
+          }
         ]
       },
       {
@@ -276,11 +840,31 @@
         "name_ar": "حلق الوادي",
         "name_fr": "La Goulette",
         "districts": [
-          { "id": 11901, "name_ar": "حلق الوادي", "name_fr": "La Goulette" },
-          { "id": 11902, "name_ar": "حلق الوادي كازينو", "name_fr": "La Goulette Casino" },
-          { "id": 11903, "name_ar": "خير الدين", "name_fr": "Kheireddine" },
-          { "id": 11904, "name_ar": "الطيب المهيري", "name_fr": "Taieb Mhiri" },
-          { "id": 11905, "name_ar": "حي السلامة", "name_fr": "Hay Essalama" }
+          {
+            "id": 11905,
+            "name_ar": "حي السلامة",
+            "name_fr": "Hay Essalama"
+          },
+          {
+            "id": 11903,
+            "name_ar": "خير الدين",
+            "name_fr": "Kheireddine"
+          },
+          {
+            "id": 11901,
+            "name_ar": "حلق الوادي",
+            "name_fr": "La Goulette"
+          },
+          {
+            "id": 11902,
+            "name_ar": "حلق الوادي كازينو",
+            "name_fr": "La Goulette Casino"
+          },
+          {
+            "id": 11904,
+            "name_ar": "الطيب المهيري",
+            "name_fr": "Taieb Mhiri"
+          }
         ]
       },
       {
@@ -288,13 +872,41 @@
         "name_ar": "الكرم",
         "name_fr": "Le Kram",
         "districts": [
-          { "id": 12001, "name_ar": "الكرم الشرقي", "name_fr": "Le Kram Est" },
-          { "id": 12002, "name_ar": "الرياض", "name_fr": "Erriadh" },
-          { "id": 12003, "name_ar": "البحيرة", "name_fr": "El Bouhaira" },
-          { "id": 12004, "name_ar": "سيدي فرج", "name_fr": "Sidi Fredj" },
-          { "id": 12005, "name_ar": "الكرم الغربي", "name_fr": "Le Kram Ouest" },
-          { "id": 12006, "name_ar": "سيدي عمر", "name_fr": "Sidi Amor" },
-          { "id": 12007, "name_ar": "البئر الحلو", "name_fr": "El Bir El Helou" }
+          {
+            "id": 12007,
+            "name_ar": "البئر الحلو",
+            "name_fr": "El Bir El Helou"
+          },
+          {
+            "id": 12003,
+            "name_ar": "البحيرة",
+            "name_fr": "El Bouhaira"
+          },
+          {
+            "id": 12002,
+            "name_ar": "الرياض",
+            "name_fr": "Erriadh"
+          },
+          {
+            "id": 12001,
+            "name_ar": "الكرم الشرقي",
+            "name_fr": "Le Kram Est"
+          },
+          {
+            "id": 12005,
+            "name_ar": "الكرم الغربي",
+            "name_fr": "Le Kram Ouest"
+          },
+          {
+            "id": 12006,
+            "name_ar": "سيدي عمر",
+            "name_fr": "Sidi Amor"
+          },
+          {
+            "id": 12004,
+            "name_ar": "سيدي فرج",
+            "name_fr": "Sidi Fredj"
+          }
         ]
       },
       {
@@ -302,16 +914,56 @@
         "name_ar": "المرسى",
         "name_fr": "La Marsa",
         "districts": [
-          { "id": 12101, "name_ar": "المرسى الشاطئ", "name_fr": "La Marsa Plage" },
-          { "id": 12102, "name_ar": "المرسى المدينة", "name_fr": "La Marsa Ville" },
-          { "id": 12103, "name_ar": "المرسى الحدائق", "name_fr": "La Marsa Hadaik" },
-          { "id": 12104, "name_ar": "المرسى الرياض", "name_fr": "La Marsa Riadh" },
-          { "id": 12105, "name_ar": "الرميلة", "name_fr": "Remila" },
-          { "id": 12106, "name_ar": "المرسى المنتزه", "name_fr": "La Marsa Montazah" },
-          { "id": 12107, "name_ar": "قمرت", "name_fr": "Gammarth" },
-          { "id": 12108, "name_ar": "قمرت العليا", "name_fr": "Gammarth El Oulia" },
-          { "id": 12109, "name_ar": "سيدي داود", "name_fr": "Sidi Daoud" },
-          { "id": 12110, "name_ar": "البحر الازرق", "name_fr": "El Bahr El Azrak" }
+          {
+            "id": 12110,
+            "name_ar": "البحر الازرق",
+            "name_fr": "El Bahr El Azrak"
+          },
+          {
+            "id": 12107,
+            "name_ar": "قمرت",
+            "name_fr": "Gammarth"
+          },
+          {
+            "id": 12108,
+            "name_ar": "قمرت العليا",
+            "name_fr": "Gammarth El Oulia"
+          },
+          {
+            "id": 12103,
+            "name_ar": "المرسى الحدائق",
+            "name_fr": "La Marsa Hadaik"
+          },
+          {
+            "id": 12106,
+            "name_ar": "المرسى المنتزه",
+            "name_fr": "La Marsa Montazah"
+          },
+          {
+            "id": 12101,
+            "name_ar": "المرسى الشاطئ",
+            "name_fr": "La Marsa Plage"
+          },
+          {
+            "id": 12104,
+            "name_ar": "المرسى الرياض",
+            "name_fr": "La Marsa Riadh"
+          },
+          {
+            "id": 12102,
+            "name_ar": "المرسى المدينة",
+            "name_fr": "La Marsa Ville"
+          },
+          {
+            "id": 12105,
+            "name_ar": "الرميلة",
+            "name_fr": "Remila"
+          },
+          {
+            "id": 12109,
+            "name_ar": "سيدي داود",
+            "name_fr": "Sidi Daoud"
+          }
         ]
       }
     ]
@@ -326,15 +978,51 @@
         "name_ar": "أريانة المدينة",
         "name_fr": "Ariana Ville",
         "districts": [
-          { "id": 20101, "name_ar": "أريانة الجديدة", "name_fr": "Ariana Nouvelle" },
-          { "id": 20102, "name_ar": "أريانة العليا", "name_fr": "Ariana El Oulia" },
-          { "id": 20103, "name_ar": "أريانة المدينة", "name_fr": "Ariana Ville" },
-          { "id": 20104, "name_ar": "المنزه الخامس", "name_fr": "El Menzah 5" },
-          { "id": 20105, "name_ar": "المنزه السادس", "name_fr": "El Menzah 6" },
-          { "id": 20106, "name_ar": "التعمير", "name_fr": "Ettaamir" },
-          { "id": 20107, "name_ar": "الياسمينة", "name_fr": "El Yasmina" },
-          { "id": 20108, "name_ar": "النصر1", "name_fr": "Ennasr 1" },
-          { "id": 20109, "name_ar": "النصر2", "name_fr": "Ennasr 2" }
+          {
+            "id": 20102,
+            "name_ar": "أريانة العليا",
+            "name_fr": "Ariana El Oulia"
+          },
+          {
+            "id": 20101,
+            "name_ar": "أريانة الجديدة",
+            "name_fr": "Ariana Nouvelle"
+          },
+          {
+            "id": 20103,
+            "name_ar": "أريانة المدينة",
+            "name_fr": "Ariana Ville"
+          },
+          {
+            "id": 20104,
+            "name_ar": "المنزه الخامس",
+            "name_fr": "El Menzah 5"
+          },
+          {
+            "id": 20105,
+            "name_ar": "المنزه السادس",
+            "name_fr": "El Menzah 6"
+          },
+          {
+            "id": 20107,
+            "name_ar": "الياسمينة",
+            "name_fr": "El Yasmina"
+          },
+          {
+            "id": 20108,
+            "name_ar": "النصر1",
+            "name_fr": "Ennasr 1"
+          },
+          {
+            "id": 20109,
+            "name_ar": "النصر2",
+            "name_fr": "Ennasr 2"
+          },
+          {
+            "id": 20106,
+            "name_ar": "التعمير",
+            "name_fr": "Ettaamir"
+          }
         ]
       },
       {
@@ -342,13 +1030,41 @@
         "name_ar": "سكرة",
         "name_fr": "La Soukra",
         "districts": [
-          { "id": 20201, "name_ar": "سكرة", "name_fr": "La Soukra" },
-          { "id": 20202, "name_ar": "دار فضال", "name_fr": "Dar Fadhal" },
-          { "id": 20203, "name_ar": "البساتين", "name_fr": "El Bassatine" },
-          { "id": 20204, "name_ar": "شطرانة", "name_fr": "Choutrana" },
-          { "id": 20205, "name_ar": "برج الوزير", "name_fr": "Borj El Ouzir" },
-          { "id": 20206, "name_ar": "النسيم", "name_fr": "Ennasim" },
-          { "id": 20207, "name_ar": "التعمير الخامس", "name_fr": "Ettaamir 5" }
+          {
+            "id": 20205,
+            "name_ar": "برج الوزير",
+            "name_fr": "Borj El Ouzir"
+          },
+          {
+            "id": 20204,
+            "name_ar": "شطرانة",
+            "name_fr": "Choutrana"
+          },
+          {
+            "id": 20202,
+            "name_ar": "دار فضال",
+            "name_fr": "Dar Fadhal"
+          },
+          {
+            "id": 20203,
+            "name_ar": "البساتين",
+            "name_fr": "El Bassatine"
+          },
+          {
+            "id": 20206,
+            "name_ar": "النسيم",
+            "name_fr": "Ennasim"
+          },
+          {
+            "id": 20207,
+            "name_ar": "التعمير الخامس",
+            "name_fr": "Ettaamir 5"
+          },
+          {
+            "id": 20201,
+            "name_ar": "سكرة",
+            "name_fr": "La Soukra"
+          }
         ]
       },
       {
@@ -356,13 +1072,41 @@
         "name_ar": "رواد",
         "name_fr": "Raoued",
         "districts": [
-          { "id": 20301, "name_ar": "جعفر", "name_fr": "Jaafar" },
-          { "id": 20302, "name_ar": "النخيلات", "name_fr": "Ennakhilat" },
-          { "id": 20303, "name_ar": "المدينة الفاضلة", "name_fr": "El Madina El Fadhila" },
-          { "id": 20304, "name_ar": "الغزالة", "name_fr": "El Ghazela" },
-          { "id": 20305, "name_ar": "رواد", "name_fr": "Raoued" },
-          { "id": 20306, "name_ar": "برج الطويل", "name_fr": "Borj Ettouil" },
-          { "id": 20307, "name_ar": "سيدي عمر بو خطيوة", "name_fr": "Sidi Amor Bou Khatioua" }
+          {
+            "id": 20306,
+            "name_ar": "برج الطويل",
+            "name_fr": "Borj Ettouil"
+          },
+          {
+            "id": 20304,
+            "name_ar": "الغزالة",
+            "name_fr": "El Ghazela"
+          },
+          {
+            "id": 20303,
+            "name_ar": "المدينة الفاضلة",
+            "name_fr": "El Madina El Fadhila"
+          },
+          {
+            "id": 20302,
+            "name_ar": "النخيلات",
+            "name_fr": "Ennakhilat"
+          },
+          {
+            "id": 20301,
+            "name_ar": "جعفر",
+            "name_fr": "Jaafar"
+          },
+          {
+            "id": 20305,
+            "name_ar": "رواد",
+            "name_fr": "Raoued"
+          },
+          {
+            "id": 20307,
+            "name_ar": "سيدي عمر بو خطيوة",
+            "name_fr": "Sidi Amor Bou Khatioua"
+          }
         ]
       },
       {
@@ -370,12 +1114,36 @@
         "name_ar": "قلعة الأندلس",
         "name_fr": "Kalaat El Andalous",
         "districts": [
-          { "id": 20401, "name_ar": "قلعة الاندلس", "name_fr": "Kalaat El Andalous" },
-          { "id": 20402, "name_ar": "قلعة الأندلس الغربية", "name_fr": "Kalaat El Andalous Ouest" },
-          { "id": 20403, "name_ar": "قنطرة بنزرت", "name_fr": "Gantaret Bizerte" },
-          { "id": 20404, "name_ar": "بوحنش", "name_fr": "Bouhnach" },
-          { "id": 20405, "name_ar": "الحسيان", "name_fr": "El Hessiane" },
-          { "id": 20406, "name_ar": "النحلي", "name_fr": "Ennehli" }
+          {
+            "id": 20404,
+            "name_ar": "بوحنش",
+            "name_fr": "Bouhnach"
+          },
+          {
+            "id": 20405,
+            "name_ar": "الحسيان",
+            "name_fr": "El Hessiane"
+          },
+          {
+            "id": 20406,
+            "name_ar": "النحلي",
+            "name_fr": "Ennehli"
+          },
+          {
+            "id": 20403,
+            "name_ar": "قنطرة بنزرت",
+            "name_fr": "Gantaret Bizerte"
+          },
+          {
+            "id": 20401,
+            "name_ar": "قلعة الاندلس",
+            "name_fr": "Kalaat El Andalous"
+          },
+          {
+            "id": 20402,
+            "name_ar": "قلعة الأندلس الغربية",
+            "name_fr": "Kalaat El Andalous Ouest"
+          }
         ]
       },
       {
@@ -383,11 +1151,31 @@
         "name_ar": "سيدي ثابت",
         "name_fr": "Sidi Thabet",
         "districts": [
-          { "id": 20501, "name_ar": "سيدي ثابت", "name_fr": "Sidi Thabet" },
-          { "id": 20502, "name_ar": "بجاوة", "name_fr": "Bejaoua" },
-          { "id": 20503, "name_ar": "المنجي سليم", "name_fr": "Mongi Slim" },
-          { "id": 20504, "name_ar": "سبالة بن عمار", "name_fr": "Sebalet Ben Ammar" },
-          { "id": 20505, "name_ar": "شرفش", "name_fr": "Chorfech" }
+          {
+            "id": 20502,
+            "name_ar": "بجاوة",
+            "name_fr": "Bejaoua"
+          },
+          {
+            "id": 20505,
+            "name_ar": "شرفش",
+            "name_fr": "Chorfech"
+          },
+          {
+            "id": 20503,
+            "name_ar": "المنجي سليم",
+            "name_fr": "Mongi Slim"
+          },
+          {
+            "id": 20504,
+            "name_ar": "سبالة بن عمار",
+            "name_fr": "Sebalet Ben Ammar"
+          },
+          {
+            "id": 20501,
+            "name_ar": "سيدي ثابت",
+            "name_fr": "Sidi Thabet"
+          }
         ]
       },
       {
@@ -395,15 +1183,51 @@
         "name_ar": "حي التضامن",
         "name_fr": "Ettadhamen",
         "districts": [
-          { "id": 20601, "name_ar": "حي التضامن", "name_fr": "Ettadhamen" },
-          { "id": 20602, "name_ar": "ابن خلدون", "name_fr": "Ibn Khaldoun" },
-          { "id": 20603, "name_ar": "9 أفريل", "name_fr": "9 Avril" },
-          { "id": 20604, "name_ar": "18 جانفي", "name_fr": "18 Janvier" },
-          { "id": 20605, "name_ar": "2 مارس", "name_fr": "2 Mars" },
-          { "id": 20606, "name_ar": "المنجي سليم", "name_fr": "Mongi Slim" },
-          { "id": 20607, "name_ar": "التضامن 4", "name_fr": "Ettadhamen 4" },
-          { "id": 20608, "name_ar": "أبو القاسم الشابي", "name_fr": "Aboulkacem Chebbi" },
-          { "id": 20609, "name_ar": "خير الدين باشا", "name_fr": "Kheireddine Pacha" }
+          {
+            "id": 20604,
+            "name_ar": "18 جانفي",
+            "name_fr": "18 Janvier"
+          },
+          {
+            "id": 20605,
+            "name_ar": "2 مارس",
+            "name_fr": "2 Mars"
+          },
+          {
+            "id": 20603,
+            "name_ar": "9 أفريل",
+            "name_fr": "9 Avril"
+          },
+          {
+            "id": 20608,
+            "name_ar": "أبو القاسم الشابي",
+            "name_fr": "Aboulkacem Chebbi"
+          },
+          {
+            "id": 20601,
+            "name_ar": "حي التضامن",
+            "name_fr": "Ettadhamen"
+          },
+          {
+            "id": 20607,
+            "name_ar": "التضامن 4",
+            "name_fr": "Ettadhamen 4"
+          },
+          {
+            "id": 20602,
+            "name_ar": "ابن خلدون",
+            "name_fr": "Ibn Khaldoun"
+          },
+          {
+            "id": 20609,
+            "name_ar": "خير الدين باشا",
+            "name_fr": "Kheireddine Pacha"
+          },
+          {
+            "id": 20606,
+            "name_ar": "المنجي سليم",
+            "name_fr": "Mongi Slim"
+          }
         ]
       },
       {
@@ -411,11 +1235,31 @@
         "name_ar": "المنيهلة",
         "name_fr": "El Mnihla",
         "districts": [
-          { "id": 20701, "name_ar": "المنيهلة", "name_fr": "El Mnihla" },
-          { "id": 20702, "name_ar": "الرفاهة", "name_fr": "Errafaha" },
-          { "id": 20703, "name_ar": "النصر", "name_fr": "Ennasr" },
-          { "id": 20704, "name_ar": "البساتين", "name_fr": "El Bassatine" },
-          { "id": 20705, "name_ar": "15 أكتوبر", "name_fr": "15 Octobre" }
+          {
+            "id": 20705,
+            "name_ar": "15 أكتوبر",
+            "name_fr": "15 Octobre"
+          },
+          {
+            "id": 20704,
+            "name_ar": "البساتين",
+            "name_fr": "El Bassatine"
+          },
+          {
+            "id": 20701,
+            "name_ar": "المنيهلة",
+            "name_fr": "El Mnihla"
+          },
+          {
+            "id": 20703,
+            "name_ar": "النصر",
+            "name_fr": "Ennasr"
+          },
+          {
+            "id": 20702,
+            "name_ar": "الرفاهة",
+            "name_fr": "Errafaha"
+          }
         ]
       }
     ]
@@ -430,12 +1274,36 @@
         "name_ar": "بن عروس",
         "name_fr": "Ben Arous",
         "districts": [
-          { "id": 30101, "name_ar": "بن عروس الشرقية", "name_fr": "Ben Arous Est" },
-          { "id": 30102, "name_ar": "حي ابن عرفة", "name_fr": "Hay Ibn Arafa" },
-          { "id": 30103, "name_ar": "المهيري", "name_fr": "El Mheiri" },
-          { "id": 30104, "name_ar": "بن عروس الغربية", "name_fr": "Ben Arous Ouest" },
-          { "id": 30105, "name_ar": "سيدي بن عروس", "name_fr": "Sidi Ben Arous" },
-          { "id": 30106, "name_ar": "حي الإسكان", "name_fr": "Hay El Iskane" }
+          {
+            "id": 30101,
+            "name_ar": "بن عروس الشرقية",
+            "name_fr": "Ben Arous Est"
+          },
+          {
+            "id": 30104,
+            "name_ar": "بن عروس الغربية",
+            "name_fr": "Ben Arous Ouest"
+          },
+          {
+            "id": 30103,
+            "name_ar": "المهيري",
+            "name_fr": "El Mheiri"
+          },
+          {
+            "id": 30106,
+            "name_ar": "حي الإسكان",
+            "name_fr": "Hay El Iskane"
+          },
+          {
+            "id": 30102,
+            "name_ar": "حي ابن عرفة",
+            "name_fr": "Hay Ibn Arafa"
+          },
+          {
+            "id": 30105,
+            "name_ar": "سيدي بن عروس",
+            "name_fr": "Sidi Ben Arous"
+          }
         ]
       },
       {
@@ -443,11 +1311,31 @@
         "name_ar": "المدينة الجديدة",
         "name_fr": "La Nouvelle Médina",
         "districts": [
-          { "id": 30201, "name_ar": "المدينة الجديدة1", "name_fr": "La Nouvelle Médina 1" },
-          { "id": 30202, "name_ar": "المدينة الجديدة 2", "name_fr": "La Nouvelle Médina 2" },
-          { "id": 30203, "name_ar": "سيدي مصباح", "name_fr": "Sidi Mesbah" },
-          { "id": 30204, "name_ar": "الياسمينات", "name_fr": "El Yasminet" },
-          { "id": 30205, "name_ar": "الرابطة", "name_fr": "Errabta" }
+          {
+            "id": 30204,
+            "name_ar": "الياسمينات",
+            "name_fr": "El Yasminet"
+          },
+          {
+            "id": 30205,
+            "name_ar": "الرابطة",
+            "name_fr": "Errabta"
+          },
+          {
+            "id": 30201,
+            "name_ar": "المدينة الجديدة1",
+            "name_fr": "La Nouvelle Médina 1"
+          },
+          {
+            "id": 30202,
+            "name_ar": "المدينة الجديدة 2",
+            "name_fr": "La Nouvelle Médina 2"
+          },
+          {
+            "id": 30203,
+            "name_ar": "سيدي مصباح",
+            "name_fr": "Sidi Mesbah"
+          }
         ]
       },
       {
@@ -455,12 +1343,36 @@
         "name_ar": "المروج",
         "name_fr": "El Mourouj",
         "districts": [
-          { "id": 30301, "name_ar": "المروج(1)", "name_fr": "El Mourouj 1" },
-          { "id": 30302, "name_ar": "المروج(3)", "name_fr": "El Mourouj 3" },
-          { "id": 30303, "name_ar": "المروج(4)", "name_fr": "El Mourouj 4" },
-          { "id": 30304, "name_ar": "المروج(5)", "name_fr": "El Mourouj 5" },
-          { "id": 30305, "name_ar": "بئر القصعة", "name_fr": "Bir El Kassaâ" },
-          { "id": 30306, "name_ar": "فرحات حشاد", "name_fr": "Farhat Hached" }
+          {
+            "id": 30305,
+            "name_ar": "بئر القصعة",
+            "name_fr": "Bir El Kassaâ"
+          },
+          {
+            "id": 30301,
+            "name_ar": "المروج(1)",
+            "name_fr": "El Mourouj 1"
+          },
+          {
+            "id": 30302,
+            "name_ar": "المروج(3)",
+            "name_fr": "El Mourouj 3"
+          },
+          {
+            "id": 30303,
+            "name_ar": "المروج(4)",
+            "name_fr": "El Mourouj 4"
+          },
+          {
+            "id": 30304,
+            "name_ar": "المروج(5)",
+            "name_fr": "El Mourouj 5"
+          },
+          {
+            "id": 30306,
+            "name_ar": "فرحات حشاد",
+            "name_fr": "Farhat Hached"
+          }
         ]
       },
       {
@@ -468,12 +1380,36 @@
         "name_ar": "حمام الأنف",
         "name_fr": "Hammam Lif",
         "districts": [
-          { "id": 30401, "name_ar": "حمام الأنف المدينة", "name_fr": "Hammam Lif Ville" },
-          { "id": 30402, "name_ar": "حمام الأنف المدينة 2", "name_fr": "Hammam Lif Ville 2" },
-          { "id": 30403, "name_ar": "حمام الأنف بوقرنين", "name_fr": "Hammam Lif Boukornine" },
-          { "id": 30404, "name_ar": "فرحات حشاد", "name_fr": "Farhat Hached" },
-          { "id": 30405, "name_ar": "حمام الأنف الملعب", "name_fr": "Hammam Lif Stade" },
-          { "id": 30406, "name_ar": "حي محمد علي", "name_fr": "Hay Mohamed Ali" }
+          {
+            "id": 30404,
+            "name_ar": "فرحات حشاد",
+            "name_fr": "Farhat Hached"
+          },
+          {
+            "id": 30403,
+            "name_ar": "حمام الأنف بوقرنين",
+            "name_fr": "Hammam Lif Boukornine"
+          },
+          {
+            "id": 30405,
+            "name_ar": "حمام الأنف الملعب",
+            "name_fr": "Hammam Lif Stade"
+          },
+          {
+            "id": 30401,
+            "name_ar": "حمام الأنف المدينة",
+            "name_fr": "Hammam Lif Ville"
+          },
+          {
+            "id": 30402,
+            "name_ar": "حمام الأنف المدينة 2",
+            "name_fr": "Hammam Lif Ville 2"
+          },
+          {
+            "id": 30406,
+            "name_ar": "حي محمد علي",
+            "name_fr": "Hay Mohamed Ali"
+          }
         ]
       },
       {
@@ -481,9 +1417,21 @@
         "name_ar": "حمام الشط",
         "name_fr": "Hammam Chott",
         "districts": [
-          { "id": 30501, "name_ar": "بئر الباي", "name_fr": "Bir El Bey" },
-          { "id": 30502, "name_ar": "برج السدرية", "name_fr": "Borj Cédria" },
-          { "id": 30503, "name_ar": "حمام الشط", "name_fr": "Hammam Chott" }
+          {
+            "id": 30501,
+            "name_ar": "بئر الباي",
+            "name_fr": "Bir El Bey"
+          },
+          {
+            "id": 30502,
+            "name_ar": "برج السدرية",
+            "name_fr": "Borj Cédria"
+          },
+          {
+            "id": 30503,
+            "name_ar": "حمام الشط",
+            "name_fr": "Hammam Chott"
+          }
         ]
       },
       {
@@ -491,10 +1439,26 @@
         "name_ar": "بومهل البساتين",
         "name_fr": "Bou Mhel El Bassatine",
         "districts": [
-          { "id": 30601, "name_ar": "بومهل", "name_fr": "Bou Mhel" },
-          { "id": 30602, "name_ar": "البساتين", "name_fr": "El Bassatine" },
-          { "id": 30603, "name_ar": "البساتين الغربية", "name_fr": "El Bassatine Ouest" },
-          { "id": 30604, "name_ar": "شالة", "name_fr": "Chella" }
+          {
+            "id": 30601,
+            "name_ar": "بومهل",
+            "name_fr": "Bou Mhel"
+          },
+          {
+            "id": 30604,
+            "name_ar": "شالة",
+            "name_fr": "Chella"
+          },
+          {
+            "id": 30602,
+            "name_ar": "البساتين",
+            "name_fr": "El Bassatine"
+          },
+          {
+            "id": 30603,
+            "name_ar": "البساتين الغربية",
+            "name_fr": "El Bassatine Ouest"
+          }
         ]
       },
       {
@@ -502,10 +1466,26 @@
         "name_ar": "الزهراء",
         "name_fr": "Ezzahra",
         "districts": [
-          { "id": 30701, "name_ar": "الزهراء المدينة", "name_fr": "Ezzahra Ville" },
-          { "id": 30702, "name_ar": "حي الحبيب", "name_fr": "Hay El Habib" },
-          { "id": 30703, "name_ar": "18 جانفي", "name_fr": "18 Janvier" },
-          { "id": 30704, "name_ar": "برج الوزير", "name_fr": "Borj El Ouzir" }
+          {
+            "id": 30703,
+            "name_ar": "18 جانفي",
+            "name_fr": "18 Janvier"
+          },
+          {
+            "id": 30704,
+            "name_ar": "برج الوزير",
+            "name_fr": "Borj El Ouzir"
+          },
+          {
+            "id": 30701,
+            "name_ar": "الزهراء المدينة",
+            "name_fr": "Ezzahra Ville"
+          },
+          {
+            "id": 30702,
+            "name_ar": "حي الحبيب",
+            "name_fr": "Hay El Habib"
+          }
         ]
       },
       {
@@ -513,14 +1493,46 @@
         "name_ar": "رادس",
         "name_fr": "Radès",
         "districts": [
-          { "id": 30801, "name_ar": "رادس المدينة", "name_fr": "Radès Ville" },
-          { "id": 30802, "name_ar": "رادس الملاحة", "name_fr": "Radès Mellaha" },
-          { "id": 30803, "name_ar": "الطيب المهيري", "name_fr": "Taieb Mhiri" },
-          { "id": 30804, "name_ar": "رادس رمادة", "name_fr": "Radès Remada" },
-          { "id": 30805, "name_ar": "المنجي سليم", "name_fr": "Mongi Slim" },
-          { "id": 30806, "name_ar": "رادس الغابة", "name_fr": "Radès Forêt" },
-          { "id": 30807, "name_ar": "رادس مليان", "name_fr": "Radès Méliane" },
-          { "id": 30808, "name_ar": "نوبو", "name_fr": "Noubou" }
+          {
+            "id": 30805,
+            "name_ar": "المنجي سليم",
+            "name_fr": "Mongi Slim"
+          },
+          {
+            "id": 30808,
+            "name_ar": "نوبو",
+            "name_fr": "Noubou"
+          },
+          {
+            "id": 30806,
+            "name_ar": "رادس الغابة",
+            "name_fr": "Radès Forêt"
+          },
+          {
+            "id": 30802,
+            "name_ar": "رادس الملاحة",
+            "name_fr": "Radès Mellaha"
+          },
+          {
+            "id": 30807,
+            "name_ar": "رادس مليان",
+            "name_fr": "Radès Méliane"
+          },
+          {
+            "id": 30804,
+            "name_ar": "رادس رمادة",
+            "name_fr": "Radès Remada"
+          },
+          {
+            "id": 30801,
+            "name_ar": "رادس المدينة",
+            "name_fr": "Radès Ville"
+          },
+          {
+            "id": 30803,
+            "name_ar": "الطيب المهيري",
+            "name_fr": "Taieb Mhiri"
+          }
         ]
       },
       {
@@ -528,14 +1540,46 @@
         "name_ar": "مقرين",
         "name_fr": "Mégrine",
         "districts": [
-          { "id": 30901, "name_ar": "مقرين العليا", "name_fr": "Mégrine El Oulia" },
-          { "id": 30902, "name_ar": "مقرين الرياض", "name_fr": "Mégrine Riadh" },
-          { "id": 30903, "name_ar": "جوهرة", "name_fr": "Jawhara" },
-          { "id": 30904, "name_ar": "منزل مبروك", "name_fr": "Menzel Mabrouk" },
-          { "id": 30905, "name_ar": "مقرين شاكر", "name_fr": "Mégrine Chaker" },
-          { "id": 30906, "name_ar": "مقرين شاكر2", "name_fr": "Mégrine Chaker 2" },
-          { "id": 30907, "name_ar": "سيدي رزيق", "name_fr": "Sidi Rezig" },
-          { "id": 30908, "name_ar": "سيدي رزيق2", "name_fr": "Sidi Rezig 2" }
+          {
+            "id": 30903,
+            "name_ar": "جوهرة",
+            "name_fr": "Jawhara"
+          },
+          {
+            "id": 30904,
+            "name_ar": "منزل مبروك",
+            "name_fr": "Menzel Mabrouk"
+          },
+          {
+            "id": 30905,
+            "name_ar": "مقرين شاكر",
+            "name_fr": "Mégrine Chaker"
+          },
+          {
+            "id": 30906,
+            "name_ar": "مقرين شاكر2",
+            "name_fr": "Mégrine Chaker 2"
+          },
+          {
+            "id": 30901,
+            "name_ar": "مقرين العليا",
+            "name_fr": "Mégrine El Oulia"
+          },
+          {
+            "id": 30902,
+            "name_ar": "مقرين الرياض",
+            "name_fr": "Mégrine Riadh"
+          },
+          {
+            "id": 30907,
+            "name_ar": "سيدي رزيق",
+            "name_fr": "Sidi Rezig"
+          },
+          {
+            "id": 30908,
+            "name_ar": "سيدي رزيق2",
+            "name_fr": "Sidi Rezig 2"
+          }
         ]
       },
       {
@@ -543,11 +1587,31 @@
         "name_ar": "المحمدية",
         "name_fr": "Mohamedia",
         "districts": [
-          { "id": 31001, "name_ar": "المحمدية", "name_fr": "Mohamedia" },
-          { "id": 31002, "name_ar": "المنجي سليم", "name_fr": "Mongi Slim" },
-          { "id": 31003, "name_ar": "حي السعادة", "name_fr": "Hay Essaada" },
-          { "id": 31004, "name_ar": "حي النسيم", "name_fr": "Hay Ennasim" },
-          { "id": 31005, "name_ar": "سيدي فرج", "name_fr": "Sidi Fredj" }
+          {
+            "id": 31004,
+            "name_ar": "حي النسيم",
+            "name_fr": "Hay Ennasim"
+          },
+          {
+            "id": 31003,
+            "name_ar": "حي السعادة",
+            "name_fr": "Hay Essaada"
+          },
+          {
+            "id": 31001,
+            "name_ar": "المحمدية",
+            "name_fr": "Mohamedia"
+          },
+          {
+            "id": 31002,
+            "name_ar": "المنجي سليم",
+            "name_fr": "Mongi Slim"
+          },
+          {
+            "id": 31005,
+            "name_ar": "سيدي فرج",
+            "name_fr": "Sidi Fredj"
+          }
         ]
       },
       {
@@ -555,13 +1619,41 @@
         "name_ar": "فوشانة",
         "name_fr": "Fouchana",
         "districts": [
-          { "id": 31101, "name_ar": "فوشانة", "name_fr": "Fouchana" },
-          { "id": 31102, "name_ar": "حي المستقبل", "name_fr": "Hay El Moustakbel" },
-          { "id": 31103, "name_ar": "الهضاب", "name_fr": "El Hdhabet" },
-          { "id": 31104, "name_ar": "المغيرة", "name_fr": "El Moghira" },
-          { "id": 31105, "name_ar": "نعسان", "name_fr": "Naâssene" },
-          { "id": 31106, "name_ar": "شبدة", "name_fr": "Chebda" },
-          { "id": 31107, "name_ar": "دوار الحوش", "name_fr": "Douar El Houch" }
+          {
+            "id": 31106,
+            "name_ar": "شبدة",
+            "name_fr": "Chebda"
+          },
+          {
+            "id": 31107,
+            "name_ar": "دوار الحوش",
+            "name_fr": "Douar El Houch"
+          },
+          {
+            "id": 31103,
+            "name_ar": "الهضاب",
+            "name_fr": "El Hdhabet"
+          },
+          {
+            "id": 31104,
+            "name_ar": "المغيرة",
+            "name_fr": "El Moghira"
+          },
+          {
+            "id": 31101,
+            "name_ar": "فوشانة",
+            "name_fr": "Fouchana"
+          },
+          {
+            "id": 31102,
+            "name_ar": "حي المستقبل",
+            "name_fr": "Hay El Moustakbel"
+          },
+          {
+            "id": 31105,
+            "name_ar": "نعسان",
+            "name_fr": "Naâssene"
+          }
         ]
       },
       {
@@ -569,20 +1661,76 @@
         "name_ar": "مرناق",
         "name_fr": "Mornag",
         "districts": [
-          { "id": 31201, "name_ar": "مرناق", "name_fr": "Mornag" },
-          { "id": 31202, "name_ar": "مرناق الغربية", "name_fr": "Mornag Ouest" },
-          { "id": 31203, "name_ar": "الخليدية", "name_fr": "El Khlidia" },
-          { "id": 31204, "name_ar": "الزاوية", "name_fr": "Ez Zaouia" },
-          { "id": 31205, "name_ar": "جبل الرصاص", "name_fr": "Jebel Erresass" },
-          { "id": 31206, "name_ar": "سيدي سالم القارصي", "name_fr": "Sidi Salem El Garsi" },
-          { "id": 31207, "name_ar": "الكبوطي", "name_fr": "El Kabouti" },
-          { "id": 31208, "name_ar": "عين رقاد", "name_fr": "Ain Regad" },
-          { "id": 31209, "name_ar": "القنة", "name_fr": "El Gonna" },
-          { "id": 31210, "name_ar": "سيدي سعد", "name_fr": "Sidi Saad" },
-          { "id": 31211, "name_ar": "السلام", "name_fr": "Essalem" },
-          { "id": 31212, "name_ar": "الرسالة", "name_fr": "Erressala" },
-          { "id": 31213, "name_ar": "أوذنة", "name_fr": "Oudhna" },
-          { "id": 31214, "name_ar": "القصيبي", "name_fr": "El Gosbi" }
+          {
+            "id": 31208,
+            "name_ar": "عين رقاد",
+            "name_fr": "Ain Regad"
+          },
+          {
+            "id": 31209,
+            "name_ar": "القنة",
+            "name_fr": "El Gonna"
+          },
+          {
+            "id": 31214,
+            "name_ar": "القصيبي",
+            "name_fr": "El Gosbi"
+          },
+          {
+            "id": 31207,
+            "name_ar": "الكبوطي",
+            "name_fr": "El Kabouti"
+          },
+          {
+            "id": 31203,
+            "name_ar": "الخليدية",
+            "name_fr": "El Khlidia"
+          },
+          {
+            "id": 31212,
+            "name_ar": "الرسالة",
+            "name_fr": "Erressala"
+          },
+          {
+            "id": 31211,
+            "name_ar": "السلام",
+            "name_fr": "Essalem"
+          },
+          {
+            "id": 31204,
+            "name_ar": "الزاوية",
+            "name_fr": "Ez Zaouia"
+          },
+          {
+            "id": 31205,
+            "name_ar": "جبل الرصاص",
+            "name_fr": "Jebel Erresass"
+          },
+          {
+            "id": 31201,
+            "name_ar": "مرناق",
+            "name_fr": "Mornag"
+          },
+          {
+            "id": 31202,
+            "name_ar": "مرناق الغربية",
+            "name_fr": "Mornag Ouest"
+          },
+          {
+            "id": 31213,
+            "name_ar": "أوذنة",
+            "name_fr": "Oudhna"
+          },
+          {
+            "id": 31210,
+            "name_ar": "سيدي سعد",
+            "name_fr": "Sidi Saad"
+          },
+          {
+            "id": 31206,
+            "name_ar": "سيدي سالم القارصي",
+            "name_fr": "Sidi Salem El Garsi"
+          }
         ]
       }
     ]
@@ -597,12 +1745,36 @@
         "name_ar": "منوبة",
         "name_fr": "Manouba",
         "districts": [
-          { "id": 40101, "name_ar": "منوبة", "name_fr": "Manouba" },
-          { "id": 40102, "name_ar": "منوبة الوسطى", "name_fr": "Manouba El Wosta" },
-          { "id": 40103, "name_ar": "سيدي عمر", "name_fr": "Sidi Amor" },
-          { "id": 40104, "name_ar": "الدندان", "name_fr": "Denden" },
-          { "id": 40105, "name_ar": "قصر السعيد", "name_fr": "Ksar Said" },
-          { "id": 40106, "name_ar": "الدندان الجنوبي", "name_fr": "Denden Sud" }
+          {
+            "id": 40104,
+            "name_ar": "الدندان",
+            "name_fr": "Denden"
+          },
+          {
+            "id": 40106,
+            "name_ar": "الدندان الجنوبي",
+            "name_fr": "Denden Sud"
+          },
+          {
+            "id": 40105,
+            "name_ar": "قصر السعيد",
+            "name_fr": "Ksar Said"
+          },
+          {
+            "id": 40101,
+            "name_ar": "منوبة",
+            "name_fr": "Manouba"
+          },
+          {
+            "id": 40102,
+            "name_ar": "منوبة الوسطى",
+            "name_fr": "Manouba El Wosta"
+          },
+          {
+            "id": 40103,
+            "name_ar": "سيدي عمر",
+            "name_fr": "Sidi Amor"
+          }
         ]
       },
       {
@@ -610,13 +1782,41 @@
         "name_ar": "وادي الليل",
         "name_fr": "Oued Ellil",
         "districts": [
-          { "id": 40201, "name_ar": "وادي الليل", "name_fr": "Oued Ellil" },
-          { "id": 40202, "name_ar": "السعيدة", "name_fr": "Essaida" },
-          { "id": 40203, "name_ar": "الرياض", "name_fr": "Erriadh" },
-          { "id": 40204, "name_ar": "حي الورد", "name_fr": "Hay El Ward" },
-          { "id": 40205, "name_ar": "النجاة", "name_fr": "Ennejat" },
-          { "id": 40206, "name_ar": "صنهاجة", "name_fr": "Sanhaja" },
-          { "id": 40207, "name_ar": "القباعة", "name_fr": "El Ghabaa" }
+          {
+            "id": 40207,
+            "name_ar": "القباعة",
+            "name_fr": "El Ghabaa"
+          },
+          {
+            "id": 40205,
+            "name_ar": "النجاة",
+            "name_fr": "Ennejat"
+          },
+          {
+            "id": 40203,
+            "name_ar": "الرياض",
+            "name_fr": "Erriadh"
+          },
+          {
+            "id": 40202,
+            "name_ar": "السعيدة",
+            "name_fr": "Essaida"
+          },
+          {
+            "id": 40204,
+            "name_ar": "حي الورد",
+            "name_fr": "Hay El Ward"
+          },
+          {
+            "id": 40201,
+            "name_ar": "وادي الليل",
+            "name_fr": "Oued Ellil"
+          },
+          {
+            "id": 40206,
+            "name_ar": "صنهاجة",
+            "name_fr": "Sanhaja"
+          }
         ]
       },
       {
@@ -624,13 +1824,41 @@
         "name_ar": "طبربة",
         "name_fr": "Tebourba",
         "districts": [
-          { "id": 40301, "name_ar": "طبربة", "name_fr": "Tebourba" },
-          { "id": 40302, "name_ar": "الانصارين", "name_fr": "El Ansarine" },
-          { "id": 40303, "name_ar": "الدخيلة", "name_fr": "Eddakhla" },
-          { "id": 40304, "name_ar": "الملاحة", "name_fr": "El Mellaha" },
-          { "id": 40305, "name_ar": "أحواز طبربة", "name_fr": "Ahouaz Tebourba" },
-          { "id": 40306, "name_ar": "الرجاء", "name_fr": "Erraja" },
-          { "id": 40307, "name_ar": "الشويقي", "name_fr": "Echouigui" }
+          {
+            "id": 40305,
+            "name_ar": "أحواز طبربة",
+            "name_fr": "Ahouaz Tebourba"
+          },
+          {
+            "id": 40307,
+            "name_ar": "الشويقي",
+            "name_fr": "Echouigui"
+          },
+          {
+            "id": 40303,
+            "name_ar": "الدخيلة",
+            "name_fr": "Eddakhla"
+          },
+          {
+            "id": 40302,
+            "name_ar": "الانصارين",
+            "name_fr": "El Ansarine"
+          },
+          {
+            "id": 40304,
+            "name_ar": "الملاحة",
+            "name_fr": "El Mellaha"
+          },
+          {
+            "id": 40306,
+            "name_ar": "الرجاء",
+            "name_fr": "Erraja"
+          },
+          {
+            "id": 40301,
+            "name_ar": "طبربة",
+            "name_fr": "Tebourba"
+          }
         ]
       },
       {
@@ -638,10 +1866,26 @@
         "name_ar": "البطان",
         "name_fr": "El Battane",
         "districts": [
-          { "id": 40401, "name_ar": "البطان", "name_fr": "El Battane" },
-          { "id": 40402, "name_ar": "برج التومي", "name_fr": "Borj Etoumi" },
-          { "id": 40403, "name_ar": "المهرين", "name_fr": "El Mahrine" },
-          { "id": 40404, "name_ar": "العروسية", "name_fr": "El Aroussia" }
+          {
+            "id": 40402,
+            "name_ar": "برج التومي",
+            "name_fr": "Borj Etoumi"
+          },
+          {
+            "id": 40404,
+            "name_ar": "العروسية",
+            "name_fr": "El Aroussia"
+          },
+          {
+            "id": 40401,
+            "name_ar": "البطان",
+            "name_fr": "El Battane"
+          },
+          {
+            "id": 40403,
+            "name_ar": "المهرين",
+            "name_fr": "El Mahrine"
+          }
         ]
       },
       {
@@ -649,12 +1893,36 @@
         "name_ar": "الجديدة",
         "name_fr": "El Jadida",
         "districts": [
-          { "id": 40501, "name_ar": "الجديدة", "name_fr": "El Jadida" },
-          { "id": 40502, "name_ar": "الجديدة حشاد", "name_fr": "El Jadida Hached" },
-          { "id": 40503, "name_ar": "شواط", "name_fr": "Chouat" },
-          { "id": 40504, "name_ar": "المنصورة", "name_fr": "El Mansoura" },
-          { "id": 40505, "name_ar": "الزاهرة", "name_fr": "Ez Zahra" },
-          { "id": 40506, "name_ar": "الحبيبية", "name_fr": "El Habibya" }
+          {
+            "id": 40503,
+            "name_ar": "شواط",
+            "name_fr": "Chouat"
+          },
+          {
+            "id": 40506,
+            "name_ar": "الحبيبية",
+            "name_fr": "El Habibya"
+          },
+          {
+            "id": 40501,
+            "name_ar": "الجديدة",
+            "name_fr": "El Jadida"
+          },
+          {
+            "id": 40502,
+            "name_ar": "الجديدة حشاد",
+            "name_fr": "El Jadida Hached"
+          },
+          {
+            "id": 40504,
+            "name_ar": "المنصورة",
+            "name_fr": "El Mansoura"
+          },
+          {
+            "id": 40505,
+            "name_ar": "الزاهرة",
+            "name_fr": "Ez Zahra"
+          }
         ]
       },
       {
@@ -662,14 +1930,46 @@
         "name_ar": "المرناقية",
         "name_fr": "Mornaguia",
         "districts": [
-          { "id": 40601, "name_ar": "المرناقية", "name_fr": "Mornaguia" },
-          { "id": 40602, "name_ar": "المرناقية الشمالية", "name_fr": "Mornaguia Nord" },
-          { "id": 40603, "name_ar": "20 مارس", "name_fr": "20 Mars" },
-          { "id": 40604, "name_ar": "بورقبة", "name_fr": "Bourguiba" },
-          { "id": 40605, "name_ar": "الفجة", "name_fr": "El Fajja" },
-          { "id": 40606, "name_ar": "سيدي علي الحطاب", "name_fr": "Sidi Ali El Hattab" },
-          { "id": 40607, "name_ar": "حميم", "name_fr": "Hmim" },
-          { "id": 40608, "name_ar": "البساتين", "name_fr": "El Bassatine" }
+          {
+            "id": 40603,
+            "name_ar": "20 مارس",
+            "name_fr": "20 Mars"
+          },
+          {
+            "id": 40604,
+            "name_ar": "بورقبة",
+            "name_fr": "Bourguiba"
+          },
+          {
+            "id": 40608,
+            "name_ar": "البساتين",
+            "name_fr": "El Bassatine"
+          },
+          {
+            "id": 40605,
+            "name_ar": "الفجة",
+            "name_fr": "El Fajja"
+          },
+          {
+            "id": 40607,
+            "name_ar": "حميم",
+            "name_fr": "Hmim"
+          },
+          {
+            "id": 40601,
+            "name_ar": "المرناقية",
+            "name_fr": "Mornaguia"
+          },
+          {
+            "id": 40602,
+            "name_ar": "المرناقية الشمالية",
+            "name_fr": "Mornaguia Nord"
+          },
+          {
+            "id": 40606,
+            "name_ar": "سيدي علي الحطاب",
+            "name_fr": "Sidi Ali El Hattab"
+          }
         ]
       },
       {
@@ -677,10 +1977,26 @@
         "name_ar": "برج العامري",
         "name_fr": "Borj El Amri",
         "districts": [
-          { "id": 40701, "name_ar": "برج العامري", "name_fr": "Borj El Amri" },
-          { "id": 40702, "name_ar": "منزل الحبيب", "name_fr": "Menzel El Habib" },
-          { "id": 40703, "name_ar": "برج النور", "name_fr": "Borj Ennour" },
-          { "id": 40704, "name_ar": "المساعدين", "name_fr": "El Msaadine" }
+          {
+            "id": 40701,
+            "name_ar": "برج العامري",
+            "name_fr": "Borj El Amri"
+          },
+          {
+            "id": 40703,
+            "name_ar": "برج النور",
+            "name_fr": "Borj Ennour"
+          },
+          {
+            "id": 40704,
+            "name_ar": "المساعدين",
+            "name_fr": "El Msaadine"
+          },
+          {
+            "id": 40702,
+            "name_ar": "منزل الحبيب",
+            "name_fr": "Menzel El Habib"
+          }
         ]
       },
       {
@@ -688,11 +2004,31 @@
         "name_ar": "دوار هيشر",
         "name_fr": "Douar Hicher",
         "districts": [
-          { "id": 40801, "name_ar": "دوار هيشر", "name_fr": "Douar Hicher" },
-          { "id": 40802, "name_ar": "خالد بن الوليد", "name_fr": "Khaled Ibn El Oualid" },
-          { "id": 40803, "name_ar": "حي الرياض", "name_fr": "Hay Erriadh" },
-          { "id": 40804, "name_ar": "حي النسيم", "name_fr": "Hay Ennasim" },
-          { "id": 40805, "name_ar": "حي الشباب", "name_fr": "Hay Echabab" }
+          {
+            "id": 40801,
+            "name_ar": "دوار هيشر",
+            "name_fr": "Douar Hicher"
+          },
+          {
+            "id": 40805,
+            "name_ar": "حي الشباب",
+            "name_fr": "Hay Echabab"
+          },
+          {
+            "id": 40804,
+            "name_ar": "حي النسيم",
+            "name_fr": "Hay Ennasim"
+          },
+          {
+            "id": 40803,
+            "name_ar": "حي الرياض",
+            "name_fr": "Hay Erriadh"
+          },
+          {
+            "id": 40802,
+            "name_ar": "خالد بن الوليد",
+            "name_fr": "Khaled Ibn El Oualid"
+          }
         ]
       }
     ]
@@ -707,19 +2043,71 @@
         "name_ar": "بنزرت الشمالية",
         "name_fr": "Bizerte Nord",
         "districts": [
-          { "id": 50101, "name_ar": "حسن النوري", "name_fr": "Hassen Nouri" },
-          { "id": 50102, "name_ar": "الحبيب بوقطفة", "name_fr": "Habib Bougatfa" },
-          { "id": 50103, "name_ar": "الكرنيش", "name_fr": "La Corniche" },
-          { "id": 50104, "name_ar": "المدينة", "name_fr": "La Ville" },
-          { "id": 50105, "name_ar": "الشيخ إدريس", "name_fr": "Cheikh Idriss" },
-          { "id": 50106, "name_ar": "القنال", "name_fr": "El Canal" },
-          { "id": 50107, "name_ar": "بوبكر باكير", "name_fr": "Boubaker Baker" },
-          { "id": 50108, "name_ar": "عين مريم", "name_fr": "Aïn Mariem" },
-          { "id": 50109, "name_ar": "الحبيب الحداد", "name_fr": "Habib Haddad" },
-          { "id": 50110, "name_ar": "المؤتمر", "name_fr": "El Moutamar" },
-          { "id": 50111, "name_ar": "الهناء", "name_fr": "El Hana" },
-          { "id": 50112, "name_ar": "15 أكتوبر", "name_fr": "15 Octobre" },
-          { "id": 50113, "name_ar": "جزيرة جالطة", "name_fr": "Île de Galite" }
+          {
+            "id": 50112,
+            "name_ar": "15 أكتوبر",
+            "name_fr": "15 Octobre"
+          },
+          {
+            "id": 50108,
+            "name_ar": "عين مريم",
+            "name_fr": "Aïn Mariem"
+          },
+          {
+            "id": 50107,
+            "name_ar": "بوبكر باكير",
+            "name_fr": "Boubaker Baker"
+          },
+          {
+            "id": 50105,
+            "name_ar": "الشيخ إدريس",
+            "name_fr": "Cheikh Idriss"
+          },
+          {
+            "id": 50106,
+            "name_ar": "القنال",
+            "name_fr": "El Canal"
+          },
+          {
+            "id": 50111,
+            "name_ar": "الهناء",
+            "name_fr": "El Hana"
+          },
+          {
+            "id": 50110,
+            "name_ar": "المؤتمر",
+            "name_fr": "El Moutamar"
+          },
+          {
+            "id": 50102,
+            "name_ar": "الحبيب بوقطفة",
+            "name_fr": "Habib Bougatfa"
+          },
+          {
+            "id": 50109,
+            "name_ar": "الحبيب الحداد",
+            "name_fr": "Habib Haddad"
+          },
+          {
+            "id": 50101,
+            "name_ar": "حسن النوري",
+            "name_fr": "Hassen Nouri"
+          },
+          {
+            "id": 50103,
+            "name_ar": "الكرنيش",
+            "name_fr": "La Corniche"
+          },
+          {
+            "id": 50104,
+            "name_ar": "المدينة",
+            "name_fr": "La Ville"
+          },
+          {
+            "id": 50113,
+            "name_ar": "جزيرة جالطة",
+            "name_fr": "Île de Galite"
+          }
         ]
       },
       {
@@ -727,10 +2115,26 @@
         "name_ar": "جرزونة",
         "name_fr": "Zarzouna",
         "districts": [
-          { "id": 50201, "name_ar": "جرزونة الغربية", "name_fr": "Zarzouna Ouest" },
-          { "id": 50202, "name_ar": "جرزونة الشرقية", "name_fr": "Zarzouna Est" },
-          { "id": 50203, "name_ar": "جرزونة الشمالية", "name_fr": "Zarzouna Nord" },
-          { "id": 50204, "name_ar": "جرزونة الجنوبية", "name_fr": "Zarzouna Sud" }
+          {
+            "id": 50202,
+            "name_ar": "جرزونة الشرقية",
+            "name_fr": "Zarzouna Est"
+          },
+          {
+            "id": 50203,
+            "name_ar": "جرزونة الشمالية",
+            "name_fr": "Zarzouna Nord"
+          },
+          {
+            "id": 50201,
+            "name_ar": "جرزونة الغربية",
+            "name_fr": "Zarzouna Ouest"
+          },
+          {
+            "id": 50204,
+            "name_ar": "جرزونة الجنوبية",
+            "name_fr": "Zarzouna Sud"
+          }
         ]
       },
       {
@@ -738,16 +2142,56 @@
         "name_ar": "بنزرت الجنوبية",
         "name_fr": "Bizerte Sud",
         "districts": [
-          { "id": 50301, "name_ar": "تسكراية", "name_fr": "Teskraya" },
-          { "id": 50302, "name_ar": "فرحات حشاد", "name_fr": "Farhat Hached" },
-          { "id": 50303, "name_ar": "مرنيصة", "name_fr": "Marnissa" },
-          { "id": 50304, "name_ar": "هيشر", "name_fr": "Hicher" },
-          { "id": 50305, "name_ar": "سيدي عامر", "name_fr": "Sidi Ameur" },
-          { "id": 50306, "name_ar": "اللواتة", "name_fr": "El Louata" },
-          { "id": 50307, "name_ar": "باب ماطر", "name_fr": "Bab Mateur" },
-          { "id": 50308, "name_ar": "حي الجلاء", "name_fr": "Hay El Jala" },
-          { "id": 50309, "name_ar": "المصيدة", "name_fr": "El Massida" },
-          { "id": 50310, "name_ar": "سيدي أحمد", "name_fr": "Sidi Ahmed" }
+          {
+            "id": 50307,
+            "name_ar": "باب ماطر",
+            "name_fr": "Bab Mateur"
+          },
+          {
+            "id": 50306,
+            "name_ar": "اللواتة",
+            "name_fr": "El Louata"
+          },
+          {
+            "id": 50309,
+            "name_ar": "المصيدة",
+            "name_fr": "El Massida"
+          },
+          {
+            "id": 50302,
+            "name_ar": "فرحات حشاد",
+            "name_fr": "Farhat Hached"
+          },
+          {
+            "id": 50308,
+            "name_ar": "حي الجلاء",
+            "name_fr": "Hay El Jala"
+          },
+          {
+            "id": 50304,
+            "name_ar": "هيشر",
+            "name_fr": "Hicher"
+          },
+          {
+            "id": 50303,
+            "name_ar": "مرنيصة",
+            "name_fr": "Marnissa"
+          },
+          {
+            "id": 50310,
+            "name_ar": "سيدي أحمد",
+            "name_fr": "Sidi Ahmed"
+          },
+          {
+            "id": 50305,
+            "name_ar": "سيدي عامر",
+            "name_fr": "Sidi Ameur"
+          },
+          {
+            "id": 50301,
+            "name_ar": "تسكراية",
+            "name_fr": "Teskraya"
+          }
         ]
       },
       {
@@ -755,14 +2199,46 @@
         "name_ar": "سجنان",
         "name_fr": "Sejnane",
         "districts": [
-          { "id": 50401, "name_ar": "سجنان", "name_fr": "Sejnane" },
-          { "id": 50402, "name_ar": "المعالية", "name_fr": "El Maalia" },
-          { "id": 50403, "name_ar": "العبابسة", "name_fr": "El Ababsa" },
-          { "id": 50404, "name_ar": "الحشاشنة", "name_fr": "El Hachachna" },
-          { "id": 50405, "name_ar": "السحابنة", "name_fr": "Es Sehabna" },
-          { "id": 50406, "name_ar": "سيدي مشرق", "name_fr": "Sidi Mechreg" },
-          { "id": 50407, "name_ar": "أمادن", "name_fr": "Amaden" },
-          { "id": 50408, "name_ar": "المشارقة", "name_fr": "El Mecherga" }
+          {
+            "id": 50407,
+            "name_ar": "أمادن",
+            "name_fr": "Amaden"
+          },
+          {
+            "id": 50403,
+            "name_ar": "العبابسة",
+            "name_fr": "El Ababsa"
+          },
+          {
+            "id": 50404,
+            "name_ar": "الحشاشنة",
+            "name_fr": "El Hachachna"
+          },
+          {
+            "id": 50402,
+            "name_ar": "المعالية",
+            "name_fr": "El Maalia"
+          },
+          {
+            "id": 50408,
+            "name_ar": "المشارقة",
+            "name_fr": "El Mecherga"
+          },
+          {
+            "id": 50405,
+            "name_ar": "السحابنة",
+            "name_fr": "Es Sehabna"
+          },
+          {
+            "id": 50401,
+            "name_ar": "سجنان",
+            "name_fr": "Sejnane"
+          },
+          {
+            "id": 50406,
+            "name_ar": "سيدي مشرق",
+            "name_fr": "Sidi Mechreg"
+          }
         ]
       },
       {
@@ -770,15 +2246,51 @@
         "name_ar": "جومين",
         "name_fr": "Joumine",
         "districts": [
-          { "id": 50501, "name_ar": "أولاد غانم", "name_fr": "Ouled Ghanem" },
-          { "id": 50502, "name_ar": "السمان", "name_fr": "Essamene" },
-          { "id": 50503, "name_ar": "الشنانة", "name_fr": "Ech Chenana" },
-          { "id": 50504, "name_ar": "تاهنت", "name_fr": "Tahent" },
-          { "id": 50505, "name_ar": "كاف غراب", "name_fr": "Kef Ghrab" },
-          { "id": 50506, "name_ar": "بالرايس", "name_fr": "Balrais" },
-          { "id": 50507, "name_ar": "الطواجنية", "name_fr": "Et Touajnia" },
-          { "id": 50508, "name_ar": "بازينة", "name_fr": "Bazina" },
-          { "id": 50509, "name_ar": "رواحة", "name_fr": "Rouaha" }
+          {
+            "id": 50506,
+            "name_ar": "بالرايس",
+            "name_fr": "Balrais"
+          },
+          {
+            "id": 50508,
+            "name_ar": "بازينة",
+            "name_fr": "Bazina"
+          },
+          {
+            "id": 50503,
+            "name_ar": "الشنانة",
+            "name_fr": "Ech Chenana"
+          },
+          {
+            "id": 50502,
+            "name_ar": "السمان",
+            "name_fr": "Essamene"
+          },
+          {
+            "id": 50507,
+            "name_ar": "الطواجنية",
+            "name_fr": "Et Touajnia"
+          },
+          {
+            "id": 50505,
+            "name_ar": "كاف غراب",
+            "name_fr": "Kef Ghrab"
+          },
+          {
+            "id": 50501,
+            "name_ar": "أولاد غانم",
+            "name_fr": "Ouled Ghanem"
+          },
+          {
+            "id": 50509,
+            "name_ar": "رواحة",
+            "name_fr": "Rouaha"
+          },
+          {
+            "id": 50504,
+            "name_ar": "تاهنت",
+            "name_fr": "Tahent"
+          }
         ]
       },
       {
@@ -786,16 +2298,56 @@
         "name_ar": "ماطر",
         "name_fr": "Mateur",
         "districts": [
-          { "id": 50601, "name_ar": "ماطر", "name_fr": "Mateur" },
-          { "id": 50602, "name_ar": "أحواز ماطر", "name_fr": "Ahouaz Mateur" },
-          { "id": 50603, "name_ar": "ماطر الجنوبية", "name_fr": "Mateur Sud" },
-          { "id": 50604, "name_ar": "حي النصر", "name_fr": "Hay Ennasr" },
-          { "id": 50605, "name_ar": "نفات", "name_fr": "Nefat" },
-          { "id": 50606, "name_ar": "حي الصداقة", "name_fr": "Hay Essadaqa" },
-          { "id": 50607, "name_ar": "ترقلاش", "name_fr": "Targallache" },
-          { "id": 50608, "name_ar": "عرب ماجور", "name_fr": "Aarab Majour" },
-          { "id": 50609, "name_ar": "بهاية", "name_fr": "Bahaya" },
-          { "id": 50610, "name_ar": "بومخيلة", "name_fr": "Bou Mkila" }
+          {
+            "id": 50608,
+            "name_ar": "عرب ماجور",
+            "name_fr": "Aarab Majour"
+          },
+          {
+            "id": 50602,
+            "name_ar": "أحواز ماطر",
+            "name_fr": "Ahouaz Mateur"
+          },
+          {
+            "id": 50609,
+            "name_ar": "بهاية",
+            "name_fr": "Bahaya"
+          },
+          {
+            "id": 50610,
+            "name_ar": "بومخيلة",
+            "name_fr": "Bou Mkila"
+          },
+          {
+            "id": 50604,
+            "name_ar": "حي النصر",
+            "name_fr": "Hay Ennasr"
+          },
+          {
+            "id": 50606,
+            "name_ar": "حي الصداقة",
+            "name_fr": "Hay Essadaqa"
+          },
+          {
+            "id": 50601,
+            "name_ar": "ماطر",
+            "name_fr": "Mateur"
+          },
+          {
+            "id": 50603,
+            "name_ar": "ماطر الجنوبية",
+            "name_fr": "Mateur Sud"
+          },
+          {
+            "id": 50605,
+            "name_ar": "نفات",
+            "name_fr": "Nefat"
+          },
+          {
+            "id": 50607,
+            "name_ar": "ترقلاش",
+            "name_fr": "Targallache"
+          }
         ]
       },
       {
@@ -803,15 +2355,51 @@
         "name_ar": "غزالة",
         "name_fr": "Ghezala",
         "districts": [
-          { "id": 50701, "name_ar": "غزالة", "name_fr": "Ghezala" },
-          { "id": 50702, "name_ar": "العرب", "name_fr": "El Aarab" },
-          { "id": 50703, "name_ar": "الذواودة", "name_fr": "Ed Dhaouada" },
-          { "id": 50704, "name_ar": "حشاد", "name_fr": "Hached" },
-          { "id": 50705, "name_ar": "أولاد الماي", "name_fr": "Ouled El May" },
-          { "id": 50706, "name_ar": "سيدي عيسى", "name_fr": "Sidi Aïssa" },
-          { "id": 50707, "name_ar": "ركب", "name_fr": "Rkeb" },
-          { "id": 50708, "name_ar": "بوجرير", "name_fr": "Bou Jrir" },
-          { "id": 50709, "name_ar": "سيدي منصور", "name_fr": "Sidi Mansour" }
+          {
+            "id": 50708,
+            "name_ar": "بوجرير",
+            "name_fr": "Bou Jrir"
+          },
+          {
+            "id": 50703,
+            "name_ar": "الذواودة",
+            "name_fr": "Ed Dhaouada"
+          },
+          {
+            "id": 50702,
+            "name_ar": "العرب",
+            "name_fr": "El Aarab"
+          },
+          {
+            "id": 50701,
+            "name_ar": "غزالة",
+            "name_fr": "Ghezala"
+          },
+          {
+            "id": 50704,
+            "name_ar": "حشاد",
+            "name_fr": "Hached"
+          },
+          {
+            "id": 50705,
+            "name_ar": "أولاد الماي",
+            "name_fr": "Ouled El May"
+          },
+          {
+            "id": 50707,
+            "name_ar": "ركب",
+            "name_fr": "Rkeb"
+          },
+          {
+            "id": 50706,
+            "name_ar": "سيدي عيسى",
+            "name_fr": "Sidi Aïssa"
+          },
+          {
+            "id": 50709,
+            "name_ar": "سيدي منصور",
+            "name_fr": "Sidi Mansour"
+          }
         ]
       },
       {
@@ -819,14 +2407,46 @@
         "name_ar": "منزل بورقيبة",
         "name_fr": "Menzel Bourguiba",
         "districts": [
-          { "id": 50801, "name_ar": "النجاح (1)", "name_fr": "Ennajah 1" },
-          { "id": 50802, "name_ar": "النجاح (2)", "name_fr": "Ennajah 2" },
-          { "id": 50803, "name_ar": "قبطنة (1)", "name_fr": "Gabtna 1" },
-          { "id": 50804, "name_ar": "قبطنة (2)", "name_fr": "Gabtna 2" },
-          { "id": 50805, "name_ar": "حي الثورة", "name_fr": "Hay Ethawra" },
-          { "id": 50806, "name_ar": "المدينة", "name_fr": "La Ville" },
-          { "id": 50807, "name_ar": "الشلاغمية", "name_fr": "Echlaghmia" },
-          { "id": 50808, "name_ar": "حي الحدائق", "name_fr": "Hay El Hadaik" }
+          {
+            "id": 50807,
+            "name_ar": "الشلاغمية",
+            "name_fr": "Echlaghmia"
+          },
+          {
+            "id": 50801,
+            "name_ar": "النجاح (1)",
+            "name_fr": "Ennajah 1"
+          },
+          {
+            "id": 50802,
+            "name_ar": "النجاح (2)",
+            "name_fr": "Ennajah 2"
+          },
+          {
+            "id": 50803,
+            "name_ar": "قبطنة (1)",
+            "name_fr": "Gabtna 1"
+          },
+          {
+            "id": 50804,
+            "name_ar": "قبطنة (2)",
+            "name_fr": "Gabtna 2"
+          },
+          {
+            "id": 50808,
+            "name_ar": "حي الحدائق",
+            "name_fr": "Hay El Hadaik"
+          },
+          {
+            "id": 50805,
+            "name_ar": "حي الثورة",
+            "name_fr": "Hay Ethawra"
+          },
+          {
+            "id": 50806,
+            "name_ar": "المدينة",
+            "name_fr": "La Ville"
+          }
         ]
       },
       {
@@ -834,9 +2454,21 @@
         "name_ar": "تينجة",
         "name_fr": "Tinja",
         "districts": [
-          { "id": 50901, "name_ar": "تينجة", "name_fr": "Tinja" },
-          { "id": 50902, "name_ar": "قنقلة", "name_fr": "Gangla" },
-          { "id": 50903, "name_ar": "الزعرور", "name_fr": "Ez Zarour" }
+          {
+            "id": 50903,
+            "name_ar": "الزعرور",
+            "name_fr": "Ez Zarour"
+          },
+          {
+            "id": 50902,
+            "name_ar": "قنقلة",
+            "name_fr": "Gangla"
+          },
+          {
+            "id": 50901,
+            "name_ar": "تينجة",
+            "name_fr": "Tinja"
+          }
         ]
       },
       {
@@ -844,14 +2476,46 @@
         "name_ar": "أوتيك",
         "name_fr": "Utique",
         "districts": [
-          { "id": 51001, "name_ar": "أوتيك", "name_fr": "Utique" },
-          { "id": 51002, "name_ar": "أوتيك الجديدة", "name_fr": "Utique Nouvelle" },
-          { "id": 51003, "name_ar": "البسباسية", "name_fr": "El Besbassia" },
-          { "id": 51004, "name_ar": "الحويض", "name_fr": "El Houidh" },
-          { "id": 51005, "name_ar": "المبطوح", "name_fr": "El Mabtouh" },
-          { "id": 51006, "name_ar": "عين غلال", "name_fr": "Aïn Ghlel" },
-          { "id": 51007, "name_ar": "سيدي عثمان", "name_fr": "Sidi Othman" },
-          { "id": 51008, "name_ar": "باش حانبة", "name_fr": "Bach Hamba" }
+          {
+            "id": 51006,
+            "name_ar": "عين غلال",
+            "name_fr": "Aïn Ghlel"
+          },
+          {
+            "id": 51008,
+            "name_ar": "باش حانبة",
+            "name_fr": "Bach Hamba"
+          },
+          {
+            "id": 51003,
+            "name_ar": "البسباسية",
+            "name_fr": "El Besbassia"
+          },
+          {
+            "id": 51004,
+            "name_ar": "الحويض",
+            "name_fr": "El Houidh"
+          },
+          {
+            "id": 51005,
+            "name_ar": "المبطوح",
+            "name_fr": "El Mabtouh"
+          },
+          {
+            "id": 51007,
+            "name_ar": "سيدي عثمان",
+            "name_fr": "Sidi Othman"
+          },
+          {
+            "id": 51001,
+            "name_ar": "أوتيك",
+            "name_fr": "Utique"
+          },
+          {
+            "id": 51002,
+            "name_ar": "أوتيك الجديدة",
+            "name_fr": "Utique Nouvelle"
+          }
         ]
       },
       {
@@ -859,10 +2523,26 @@
         "name_ar": "غار الملح",
         "name_fr": "Ghar El Melh",
         "districts": [
-          { "id": 51101, "name_ar": "غار الملح", "name_fr": "Ghar El Melh" },
-          { "id": 51102, "name_ar": "باجو", "name_fr": "Bajou" },
-          { "id": 51103, "name_ar": "عوسجة", "name_fr": "Aousja" },
-          { "id": 51104, "name_ar": "الزواوين", "name_fr": "Ez Zouaouine" }
+          {
+            "id": 51103,
+            "name_ar": "عوسجة",
+            "name_fr": "Aousja"
+          },
+          {
+            "id": 51102,
+            "name_ar": "باجو",
+            "name_fr": "Bajou"
+          },
+          {
+            "id": 51104,
+            "name_ar": "الزواوين",
+            "name_fr": "Ez Zouaouine"
+          },
+          {
+            "id": 51101,
+            "name_ar": "غار الملح",
+            "name_fr": "Ghar El Melh"
+          }
         ]
       },
       {
@@ -870,11 +2550,31 @@
         "name_ar": "منزل جميل",
         "name_fr": "Menzel Jemil",
         "districts": [
-          { "id": 51201, "name_ar": "منزل جميل الشرقية", "name_fr": "Menzel Jemil Est" },
-          { "id": 51202, "name_ar": "منزل جميل الغربية", "name_fr": "Menzel Jemil Ouest" },
-          { "id": 51203, "name_ar": "منزل عبد الرحمان الشرقية", "name_fr": "Menzel Abderrahmen Est" },
-          { "id": 51204, "name_ar": "منزل عبد الرحمان الغربية", "name_fr": "Menzel Abderrahmen Ouest" },
-          { "id": 51205, "name_ar": "العزيب", "name_fr": "El Azib" }
+          {
+            "id": 51205,
+            "name_ar": "العزيب",
+            "name_fr": "El Azib"
+          },
+          {
+            "id": 51203,
+            "name_ar": "منزل عبد الرحمان الشرقية",
+            "name_fr": "Menzel Abderrahmen Est"
+          },
+          {
+            "id": 51204,
+            "name_ar": "منزل عبد الرحمان الغربية",
+            "name_fr": "Menzel Abderrahmen Ouest"
+          },
+          {
+            "id": 51201,
+            "name_ar": "منزل جميل الشرقية",
+            "name_fr": "Menzel Jemil Est"
+          },
+          {
+            "id": 51202,
+            "name_ar": "منزل جميل الغربية",
+            "name_fr": "Menzel Jemil Ouest"
+          }
         ]
       },
       {
@@ -882,10 +2582,26 @@
         "name_ar": "العالية",
         "name_fr": "El Alia",
         "districts": [
-          { "id": 51301, "name_ar": "سيدي علي الشباب", "name_fr": "Sidi Ali Chebab" },
-          { "id": 51302, "name_ar": "العالية الشمالية", "name_fr": "El Alia Nord" },
-          { "id": 51303, "name_ar": "العالية الجنوبية", "name_fr": "El Alia Sud" },
-          { "id": 51304, "name_ar": "الخيتمين", "name_fr": "El Khitemine" }
+          {
+            "id": 51302,
+            "name_ar": "العالية الشمالية",
+            "name_fr": "El Alia Nord"
+          },
+          {
+            "id": 51303,
+            "name_ar": "العالية الجنوبية",
+            "name_fr": "El Alia Sud"
+          },
+          {
+            "id": 51304,
+            "name_ar": "الخيتمين",
+            "name_fr": "El Khitemine"
+          },
+          {
+            "id": 51301,
+            "name_ar": "سيدي علي الشباب",
+            "name_fr": "Sidi Ali Chebab"
+          }
         ]
       },
       {
@@ -893,11 +2609,31 @@
         "name_ar": "رأس الجبل",
         "name_fr": "Ras Jebel",
         "districts": [
-          { "id": 51401, "name_ar": "رأس الجبل الشمالية", "name_fr": "Ras Jebel Nord" },
-          { "id": 51402, "name_ar": "رأس الجبل الجنوبية", "name_fr": "Ras Jebel Sud" },
-          { "id": 51403, "name_ar": "الماتلين", "name_fr": "El Metline" },
-          { "id": 51404, "name_ar": "صونين", "name_fr": "Sounine" },
-          { "id": 51405, "name_ar": "رفراف", "name_fr": "Raf Raf" }
+          {
+            "id": 51403,
+            "name_ar": "الماتلين",
+            "name_fr": "El Metline"
+          },
+          {
+            "id": 51405,
+            "name_ar": "رفراف",
+            "name_fr": "Raf Raf"
+          },
+          {
+            "id": 51401,
+            "name_ar": "رأس الجبل الشمالية",
+            "name_fr": "Ras Jebel Nord"
+          },
+          {
+            "id": 51402,
+            "name_ar": "رأس الجبل الجنوبية",
+            "name_fr": "Ras Jebel Sud"
+          },
+          {
+            "id": 51404,
+            "name_ar": "صونين",
+            "name_fr": "Sounine"
+          }
         ]
       }
     ]
@@ -912,9 +2648,21 @@
         "name_ar": "نابل",
         "name_fr": "Nabeul",
         "districts": [
-          { "id": 6001, "name_ar": "المرازقة", "name_fr": "El Mrazka" },
-          { "id": 6002, "name_ar": "بئر شلوف", "name_fr": "Bir Challouf" },
-          { "id": 6003, "name_ar": "نابل المدينة", "name_fr": "Nabeul Ville" }
+          {
+            "id": 6002,
+            "name_ar": "بئر شلوف",
+            "name_fr": "Bir Challouf"
+          },
+          {
+            "id": 6001,
+            "name_ar": "المرازقة",
+            "name_fr": "El Mrazka"
+          },
+          {
+            "id": 6003,
+            "name_ar": "نابل المدينة",
+            "name_fr": "Nabeul Ville"
+          }
         ]
       },
       {
@@ -922,9 +2670,21 @@
         "name_ar": "الحمامات",
         "name_fr": "Hammamet",
         "districts": [
-          { "id": 6004, "name_ar": "بئر بورقبة", "name_fr": "Bir Bouregba" },
-          { "id": 6005, "name_ar": "الحمامات المدينة", "name_fr": "Hammamet Ville" },
-          { "id": 6006, "name_ar": "ياسمين الحمامات", "name_fr": "Yasmine Hammamet" }
+          {
+            "id": 6004,
+            "name_ar": "بئر بورقبة",
+            "name_fr": "Bir Bouregba"
+          },
+          {
+            "id": 6005,
+            "name_ar": "الحمامات المدينة",
+            "name_fr": "Hammamet Ville"
+          },
+          {
+            "id": 6006,
+            "name_ar": "ياسمين الحمامات",
+            "name_fr": "Yasmine Hammamet"
+          }
         ]
       },
       {
@@ -932,8 +2692,16 @@
         "name_ar": "قليبية",
         "name_fr": "Kélibia",
         "districts": [
-          { "id": 6007, "name_ar": "قليبية المدينة", "name_fr": "Kelibia Ville" },
-          { "id": 6008, "name_ar": "المنصورة", "name_fr": "Mansoura" }
+          {
+            "id": 6007,
+            "name_ar": "قليبية المدينة",
+            "name_fr": "Kelibia Ville"
+          },
+          {
+            "id": 6008,
+            "name_ar": "المنصورة",
+            "name_fr": "Mansoura"
+          }
         ]
       },
       {
@@ -941,8 +2709,16 @@
         "name_ar": "منزل تميم",
         "name_fr": "Menzel Temime",
         "districts": [
-          { "id": 6009, "name_ar": "منزل تميم المدينة", "name_fr": "Menzel Temime Ville" },
-          { "id": 6010, "name_ar": "وادي الخطف", "name_fr": "Oued El Khatef" }
+          {
+            "id": 6009,
+            "name_ar": "منزل تميم المدينة",
+            "name_fr": "Menzel Temime Ville"
+          },
+          {
+            "id": 6010,
+            "name_ar": "وادي الخطف",
+            "name_fr": "Oued El Khatef"
+          }
         ]
       },
       {
@@ -950,8 +2726,16 @@
         "name_ar": "قرمبالية",
         "name_fr": "Grombalia",
         "districts": [
-          { "id": 6011, "name_ar": "قرمبالية المدينة", "name_fr": "Grombalia Ville" },
-          { "id": 6012, "name_ar": "تركي", "name_fr": "Turki" }
+          {
+            "id": 6011,
+            "name_ar": "قرمبالية المدينة",
+            "name_fr": "Grombalia Ville"
+          },
+          {
+            "id": 6012,
+            "name_ar": "تركي",
+            "name_fr": "Turki"
+          }
         ]
       }
     ]
@@ -966,8 +2750,16 @@
         "name_ar": "زغوان",
         "name_fr": "Zaghouan",
         "districts": [
-          { "id": 7001, "name_ar": "زغوان المدينة", "name_fr": "Zaghouan Ville" },
-          { "id": 7002, "name_ar": "مقران", "name_fr": "Moghrane" }
+          {
+            "id": 7002,
+            "name_ar": "مقران",
+            "name_fr": "Moghrane"
+          },
+          {
+            "id": 7001,
+            "name_ar": "زغوان المدينة",
+            "name_fr": "Zaghouan Ville"
+          }
         ]
       },
       {
@@ -975,8 +2767,16 @@
         "name_ar": "الفحص",
         "name_fr": "El Fahs",
         "districts": [
-          { "id": 7003, "name_ar": "الفحص المدينة", "name_fr": "El Fahs Ville" },
-          { "id": 7004, "name_ar": "جوجار", "name_fr": "Jougar" }
+          {
+            "id": 7003,
+            "name_ar": "الفحص المدينة",
+            "name_fr": "El Fahs Ville"
+          },
+          {
+            "id": 7004,
+            "name_ar": "جوجار",
+            "name_fr": "Jougar"
+          }
         ]
       },
       {
@@ -984,8 +2784,16 @@
         "name_ar": "الزريبة",
         "name_fr": "Zriba",
         "districts": [
-          { "id": 7005, "name_ar": "زريبة الحمام", "name_fr": "Zriba Hammam" },
-          { "id": 7006, "name_ar": "الزريبة القرية", "name_fr": "Zriba Village" }
+          {
+            "id": 7005,
+            "name_ar": "زريبة الحمام",
+            "name_fr": "Zriba Hammam"
+          },
+          {
+            "id": 7006,
+            "name_ar": "الزريبة القرية",
+            "name_fr": "Zriba Village"
+          }
         ]
       }
     ]
@@ -1000,8 +2808,16 @@
         "name_ar": "باجة الشمالية",
         "name_fr": "Béja Nord",
         "districts": [
-          { "id": 8001, "name_ar": "باجة المدينة", "name_fr": "Béja Ville" },
-          { "id": 8002, "name_ar": "المستقبل", "name_fr": "El Moustakbel" }
+          {
+            "id": 8001,
+            "name_ar": "باجة المدينة",
+            "name_fr": "Béja Ville"
+          },
+          {
+            "id": 8002,
+            "name_ar": "المستقبل",
+            "name_fr": "El Moustakbel"
+          }
         ]
       },
       {
@@ -1009,8 +2825,16 @@
         "name_ar": "مجاز الباب",
         "name_fr": "Medjez El Bab",
         "districts": [
-          { "id": 8003, "name_ar": "القريات", "name_fr": "El Griyat" },
-          { "id": 8004, "name_ar": "مجاز الباب المدينة", "name_fr": "Medjez El Bab Ville" }
+          {
+            "id": 8003,
+            "name_ar": "القريات",
+            "name_fr": "El Griyat"
+          },
+          {
+            "id": 8004,
+            "name_ar": "مجاز الباب المدينة",
+            "name_fr": "Medjez El Bab Ville"
+          }
         ]
       },
       {
@@ -1018,8 +2842,16 @@
         "name_ar": "تستور",
         "name_fr": "Testour",
         "districts": [
-          { "id": 8005, "name_ar": "السلوقية", "name_fr": "Slouguia" },
-          { "id": 8006, "name_ar": "تستور المدينة", "name_fr": "Testour Ville" }
+          {
+            "id": 8005,
+            "name_ar": "السلوقية",
+            "name_fr": "Slouguia"
+          },
+          {
+            "id": 8006,
+            "name_ar": "تستور المدينة",
+            "name_fr": "Testour Ville"
+          }
         ]
       }
     ]
@@ -1034,7 +2866,11 @@
         "name_ar": "جندوبة",
         "name_fr": "Jendouba",
         "districts": [
-          { "id": 9001, "name_ar": "جندوبة المدينة", "name_fr": "Jendouba Ville" }
+          {
+            "id": 9001,
+            "name_ar": "جندوبة المدينة",
+            "name_fr": "Jendouba Ville"
+          }
         ]
       },
       {
@@ -1042,8 +2878,16 @@
         "name_ar": "طبرقة",
         "name_fr": "Tabarka",
         "districts": [
-          { "id": 9002, "name_ar": "طبرقة المدينة", "name_fr": "Tabarka Ville" },
-          { "id": 9003, "name_ar": "ملولة", "name_fr": "Melloula" }
+          {
+            "id": 9003,
+            "name_ar": "ملولة",
+            "name_fr": "Melloula"
+          },
+          {
+            "id": 9002,
+            "name_ar": "طبرقة المدينة",
+            "name_fr": "Tabarka Ville"
+          }
         ]
       },
       {
@@ -1051,8 +2895,16 @@
         "name_ar": "عين دراهم",
         "name_fr": "Aïn Draham",
         "districts": [
-          { "id": 9004, "name_ar": "عين دراهم المدينة", "name_fr": "Ain Draham Ville" },
-          { "id": 9005, "name_ar": "ببوش", "name_fr": "Babouch" }
+          {
+            "id": 9004,
+            "name_ar": "عين دراهم المدينة",
+            "name_fr": "Ain Draham Ville"
+          },
+          {
+            "id": 9005,
+            "name_ar": "ببوش",
+            "name_fr": "Babouch"
+          }
         ]
       }
     ]
@@ -1067,8 +2919,16 @@
         "name_ar": "الكاف الشرقية",
         "name_fr": "El Kef Est",
         "districts": [
-          { "id": 10001, "name_ar": "الكاف المدينة", "name_fr": "El Kef Ville" },
-          { "id": 10002, "name_ar": "السرس", "name_fr": "Sers" }
+          {
+            "id": 10001,
+            "name_ar": "الكاف المدينة",
+            "name_fr": "El Kef Ville"
+          },
+          {
+            "id": 10002,
+            "name_ar": "السرس",
+            "name_fr": "Sers"
+          }
         ]
       },
       {
@@ -1076,7 +2936,11 @@
         "name_ar": "تاجروين",
         "name_fr": "Tajerouine",
         "districts": [
-          { "id": 10003, "name_ar": "تاجروين المدينة", "name_fr": "Tajerouine Ville" }
+          {
+            "id": 10003,
+            "name_ar": "تاجروين المدينة",
+            "name_fr": "Tajerouine Ville"
+          }
         ]
       },
       {
@@ -1084,7 +2948,11 @@
         "name_ar": "قلعة سنان",
         "name_fr": "Kalaat Senan",
         "districts": [
-          { "id": 10004, "name_ar": "قلعة سنان المركز", "name_fr": "Kalaat Senan Centre" }
+          {
+            "id": 10004,
+            "name_ar": "قلعة سنان المركز",
+            "name_fr": "Kalaat Senan Centre"
+          }
         ]
       }
     ]
@@ -1099,7 +2967,11 @@
         "name_ar": "سليانة الشمالية",
         "name_fr": "Siliana Nord",
         "districts": [
-          { "id": 11001, "name_ar": "سليانة المدينة", "name_fr": "Siliana Ville" }
+          {
+            "id": 1101001,
+            "name_ar": "سليانة المدينة",
+            "name_fr": "Siliana Ville"
+          }
         ]
       },
       {
@@ -1107,7 +2979,11 @@
         "name_ar": "مكثر",
         "name_fr": "Makthar",
         "districts": [
-          { "id": 11002, "name_ar": "مكثر المدينة", "name_fr": "Makthar Ville" }
+          {
+            "id": 1102001,
+            "name_ar": "مكثر المدينة",
+            "name_fr": "Makthar Ville"
+          }
         ]
       },
       {
@@ -1115,7 +2991,11 @@
         "name_ar": "كسرى",
         "name_fr": "Kesra",
         "districts": [
-          { "id": 11003, "name_ar": "كسرى المدينة", "name_fr": "Kesra Ville" }
+          {
+            "id": 1103001,
+            "name_ar": "كسرى المدينة",
+            "name_fr": "Kesra Ville"
+          }
         ]
       }
     ]
@@ -1130,9 +3010,21 @@
         "name_ar": "سوسة المدينة",
         "name_fr": "Sousse Ville",
         "districts": [
-          { "id": 12001, "name_ar": "سوسة المركز", "name_fr": "Sousse Centre" },
-          { "id": 12002, "name_ar": "بوجعفر", "name_fr": "Bou Jafar" },
-          { "id": 12003, "name_ar": "المدينة العتيقة", "name_fr": "Medina" }
+          {
+            "id": 1201001,
+            "name_ar": "بوجعفر",
+            "name_fr": "Bou Jafar"
+          },
+          {
+            "id": 1201002,
+            "name_ar": "المدينة العتيقة",
+            "name_fr": "Medina"
+          },
+          {
+            "id": 1201003,
+            "name_ar": "سوسة المركز",
+            "name_fr": "Sousse Centre"
+          }
         ]
       },
       {
@@ -1140,9 +3032,21 @@
         "name_ar": "سوسة جوهرة",
         "name_fr": "Sousse Jawhara",
         "districts": [
-          { "id": 12004, "name_ar": "سهلول", "name_fr": "Sahloul" },
-          { "id": 12005, "name_ar": "جوهرة", "name_fr": "Jawhara" },
-          { "id": 12006, "name_ar": "حي الصحة", "name_fr": "Hay El Sante" }
+          {
+            "id": 1202001,
+            "name_ar": "حي الصحة",
+            "name_fr": "Hay El Sante"
+          },
+          {
+            "id": 1202002,
+            "name_ar": "جوهرة",
+            "name_fr": "Jawhara"
+          },
+          {
+            "id": 1202003,
+            "name_ar": "سهلول",
+            "name_fr": "Sahloul"
+          }
         ]
       },
       {
@@ -1150,8 +3054,16 @@
         "name_ar": "حمام سوسة",
         "name_fr": "Hammam Sousse",
         "districts": [
-          { "id": 12007, "name_ar": "حمام سوسة المدينة", "name_fr": "Hammam Sousse Ville" },
-          { "id": 12008, "name_ar": "القنطاوي", "name_fr": "El Kantaoui" }
+          {
+            "id": 12008,
+            "name_ar": "القنطاوي",
+            "name_fr": "El Kantaoui"
+          },
+          {
+            "id": 1203002,
+            "name_ar": "حمام سوسة المدينة",
+            "name_fr": "Hammam Sousse Ville"
+          }
         ]
       },
       {
@@ -1159,8 +3071,16 @@
         "name_ar": "مساكن",
         "name_fr": "Msaken",
         "districts": [
-          { "id": 12009, "name_ar": "مساكن المدينة", "name_fr": "Msaken Ville" },
-          { "id": 12010, "name_ar": "بوربين", "name_fr": "Bourbine" }
+          {
+            "id": 12010,
+            "name_ar": "بوربين",
+            "name_fr": "Bourbine"
+          },
+          {
+            "id": 12009,
+            "name_ar": "مساكن المدينة",
+            "name_fr": "Msaken Ville"
+          }
         ]
       },
       {
@@ -1168,8 +3088,16 @@
         "name_ar": "أكودة",
         "name_fr": "Akouda",
         "districts": [
-          { "id": 12011, "name_ar": "أكودة المدينة", "name_fr": "Akouda Ville" },
-          { "id": 12012, "name_ar": "شط مريم", "name_fr": "Chott Meriem" }
+          {
+            "id": 12011,
+            "name_ar": "أكودة المدينة",
+            "name_fr": "Akouda Ville"
+          },
+          {
+            "id": 12012,
+            "name_ar": "شط مريم",
+            "name_fr": "Chott Meriem"
+          }
         ]
       }
     ]
@@ -1184,10 +3112,26 @@
         "name_ar": "المنستير",
         "name_fr": "Monastir",
         "districts": [
-          { "id": 13001, "name_ar": "المنستير المدينة", "name_fr": "Monastir Ville" },
-          { "id": 13002, "name_ar": "صقانس", "name_fr": "Skanes" },
-          { "id": 13003, "name_ar": "حلية", "name_fr": "Helia" },
-          { "id": 13004, "name_ar": "حي العقبة", "name_fr": "Hay El Agba" }
+          {
+            "id": 13004,
+            "name_ar": "حي العقبة",
+            "name_fr": "Hay El Agba"
+          },
+          {
+            "id": 13003,
+            "name_ar": "حلية",
+            "name_fr": "Helia"
+          },
+          {
+            "id": 13001,
+            "name_ar": "المنستير المدينة",
+            "name_fr": "Monastir Ville"
+          },
+          {
+            "id": 13002,
+            "name_ar": "صقانس",
+            "name_fr": "Skanes"
+          }
         ]
       },
       {
@@ -1195,8 +3139,16 @@
         "name_ar": "قصر هلال",
         "name_fr": "Ksar Hellal",
         "districts": [
-          { "id": 13005, "name_ar": "قصر هلال المدينة", "name_fr": "Ksar Hellal Ville" },
-          { "id": 13006, "name_ar": "حي الرياض", "name_fr": "Hay El Riyadh" }
+          {
+            "id": 13006,
+            "name_ar": "حي الرياض",
+            "name_fr": "Hay El Riyadh"
+          },
+          {
+            "id": 13005,
+            "name_ar": "قصر هلال المدينة",
+            "name_fr": "Ksar Hellal Ville"
+          }
         ]
       },
       {
@@ -1204,8 +3156,16 @@
         "name_ar": "مكنين",
         "name_fr": "Moknine",
         "districts": [
-          { "id": 13007, "name_ar": "مكنين المدينة", "name_fr": "Moknine Ville" },
-          { "id": 13008, "name_ar": "شراحيل", "name_fr": "Cherahil" }
+          {
+            "id": 13008,
+            "name_ar": "شراحيل",
+            "name_fr": "Cherahil"
+          },
+          {
+            "id": 13007,
+            "name_ar": "مكنين المدينة",
+            "name_fr": "Moknine Ville"
+          }
         ]
       },
       {
@@ -1213,8 +3173,16 @@
         "name_ar": "جمال",
         "name_fr": "Jemmel",
         "districts": [
-          { "id": 13009, "name_ar": "جمال المدينة", "name_fr": "Jemmel Ville" },
-          { "id": 13010, "name_ar": "بئر التوتة", "name_fr": "Bir Ettouta" }
+          {
+            "id": 13010,
+            "name_ar": "بئر التوتة",
+            "name_fr": "Bir Ettouta"
+          },
+          {
+            "id": 13009,
+            "name_ar": "جمال المدينة",
+            "name_fr": "Jemmel Ville"
+          }
         ]
       }
     ]
@@ -1229,10 +3197,26 @@
         "name_ar": "المهدية",
         "name_fr": "Mahdia",
         "districts": [
-          { "id": 14001, "name_ar": "المهدية المدينة", "name_fr": "Mahdia Ville" },
-          { "id": 14002, "name_ar": "هيبون", "name_fr": "Hiboun" },
-          { "id": 14003, "name_ar": "برج العريف", "name_fr": "Borj El Arif" },
-          { "id": 14004, "name_ar": "زويلة", "name_fr": "Zouila" }
+          {
+            "id": 14003,
+            "name_ar": "برج العريف",
+            "name_fr": "Borj El Arif"
+          },
+          {
+            "id": 14002,
+            "name_ar": "هيبون",
+            "name_fr": "Hiboun"
+          },
+          {
+            "id": 14001,
+            "name_ar": "المهدية المدينة",
+            "name_fr": "Mahdia Ville"
+          },
+          {
+            "id": 14004,
+            "name_ar": "زويلة",
+            "name_fr": "Zouila"
+          }
         ]
       },
       {
@@ -1240,8 +3224,16 @@
         "name_ar": "قصور الساف",
         "name_fr": "Ksour Essef",
         "districts": [
-          { "id": 14005, "name_ar": "قصور الساف المدينة", "name_fr": "Ksour Essef Ville" },
-          { "id": 14006, "name_ar": "سلاكتة", "name_fr": "Salakta" }
+          {
+            "id": 14005,
+            "name_ar": "قصور الساف المدينة",
+            "name_fr": "Ksour Essef Ville"
+          },
+          {
+            "id": 14006,
+            "name_ar": "سلاكتة",
+            "name_fr": "Salakta"
+          }
         ]
       },
       {
@@ -1249,8 +3241,16 @@
         "name_ar": "الجم",
         "name_fr": "El Jem",
         "districts": [
-          { "id": 14007, "name_ar": "الجم المدينة", "name_fr": "El Jem Ville" },
-          { "id": 14008, "name_ar": "حي النصر", "name_fr": "Hay Ennasr" }
+          {
+            "id": 14007,
+            "name_ar": "الجم المدينة",
+            "name_fr": "El Jem Ville"
+          },
+          {
+            "id": 14008,
+            "name_ar": "حي النصر",
+            "name_fr": "Hay Ennasr"
+          }
         ]
       }
     ]
@@ -1265,10 +3265,26 @@
         "name_ar": "صفاقس المدينة",
         "name_fr": "Sfax Ville",
         "districts": [
-          { "id": 15001, "name_ar": "باب البحر", "name_fr": "Bab Bhar" },
-          { "id": 15002, "name_ar": "بيكفيل", "name_fr": "Picville" },
-          { "id": 15003, "name_ar": "صفاقس المركز", "name_fr": "Sfax Centre" },
-          { "id": 15004, "name_ar": "المدينة العتيقة", "name_fr": "Medina" }
+          {
+            "id": 15001,
+            "name_ar": "باب البحر",
+            "name_fr": "Bab Bhar"
+          },
+          {
+            "id": 15004,
+            "name_ar": "المدينة العتيقة",
+            "name_fr": "Medina"
+          },
+          {
+            "id": 15002,
+            "name_ar": "بيكفيل",
+            "name_fr": "Picville"
+          },
+          {
+            "id": 15003,
+            "name_ar": "صفاقس المركز",
+            "name_fr": "Sfax Centre"
+          }
         ]
       },
       {
@@ -1276,8 +3292,16 @@
         "name_ar": "صفاقس الغربية",
         "name_fr": "Sfax Ouest",
         "districts": [
-          { "id": 15005, "name_ar": "حي الحبيب", "name_fr": "Hay El Habib" },
-          { "id": 15006, "name_ar": "حي البحري", "name_fr": "Hay El Bahri" }
+          {
+            "id": 15006,
+            "name_ar": "حي البحري",
+            "name_fr": "Hay El Bahri"
+          },
+          {
+            "id": 15005,
+            "name_ar": "حي الحبيب",
+            "name_fr": "Hay El Habib"
+          }
         ]
       },
       {
@@ -1285,8 +3309,16 @@
         "name_ar": "ساقية الزيت",
         "name_fr": "Sakiet Ezzit",
         "districts": [
-          { "id": 15007, "name_ar": "ساقية الزيت المدينة", "name_fr": "Sakiet Ezzit Ville" },
-          { "id": 15008, "name_ar": "حي الأنس", "name_fr": "Hay El Ons" }
+          {
+            "id": 15008,
+            "name_ar": "حي الأنس",
+            "name_fr": "Hay El Ons"
+          },
+          {
+            "id": 15007,
+            "name_ar": "ساقية الزيت المدينة",
+            "name_fr": "Sakiet Ezzit Ville"
+          }
         ]
       },
       {
@@ -1294,8 +3326,16 @@
         "name_ar": "طينة",
         "name_fr": "Thyna",
         "districts": [
-          { "id": 15009, "name_ar": "طينة المدينة", "name_fr": "Thyna Ville" },
-          { "id": 15010, "name_ar": "حي المطار", "name_fr": "Hay El Matar" }
+          {
+            "id": 15010,
+            "name_ar": "حي المطار",
+            "name_fr": "Hay El Matar"
+          },
+          {
+            "id": 15009,
+            "name_ar": "طينة المدينة",
+            "name_fr": "Thyna Ville"
+          }
         ]
       },
       {
@@ -1303,9 +3343,21 @@
         "name_ar": "قرقنة",
         "name_fr": "Kerkennah",
         "districts": [
-          { "id": 15011, "name_ar": "الرملة", "name_fr": "El Ramla" },
-          { "id": 15012, "name_ar": "العطايا", "name_fr": "Attaya" },
-          { "id": 15013, "name_ar": "سيدي يوسف", "name_fr": "Sidi Youssef" }
+          {
+            "id": 15012,
+            "name_ar": "العطايا",
+            "name_fr": "Attaya"
+          },
+          {
+            "id": 15011,
+            "name_ar": "الرملة",
+            "name_fr": "El Ramla"
+          },
+          {
+            "id": 15013,
+            "name_ar": "سيدي يوسف",
+            "name_fr": "Sidi Youssef"
+          }
         ]
       }
     ]
@@ -1320,9 +3372,21 @@
         "name_ar": "القيروان الشمالية",
         "name_fr": "Kairouan Nord",
         "districts": [
-          { "id": 16001, "name_ar": "القيروان المدينة", "name_fr": "Kairouan Ville" },
-          { "id": 16002, "name_ar": "حي المنشية", "name_fr": "Hay El Menchia" },
-          { "id": 16003, "name_ar": "باب الخوخة", "name_fr": "Bab El Khoukha" }
+          {
+            "id": 16003,
+            "name_ar": "باب الخوخة",
+            "name_fr": "Bab El Khoukha"
+          },
+          {
+            "id": 16002,
+            "name_ar": "حي المنشية",
+            "name_fr": "Hay El Menchia"
+          },
+          {
+            "id": 16001,
+            "name_ar": "القيروان المدينة",
+            "name_fr": "Kairouan Ville"
+          }
         ]
       },
       {
@@ -1330,7 +3394,11 @@
         "name_ar": "بوحجلة",
         "name_fr": "Bou Hajla",
         "districts": [
-          { "id": 16004, "name_ar": "بوحجلة المدينة", "name_fr": "Bou Hajla Ville" }
+          {
+            "id": 16004,
+            "name_ar": "بوحجلة المدينة",
+            "name_fr": "Bou Hajla Ville"
+          }
         ]
       },
       {
@@ -1338,7 +3406,11 @@
         "name_ar": "السبيخة",
         "name_fr": "Sbikha",
         "districts": [
-          { "id": 16005, "name_ar": "السبيخة المدينة", "name_fr": "Sbikha Ville" }
+          {
+            "id": 16005,
+            "name_ar": "السبيخة المدينة",
+            "name_fr": "Sbikha Ville"
+          }
         ]
       }
     ]
@@ -1353,9 +3425,21 @@
         "name_ar": "القصرين الشمالية",
         "name_fr": "Kasserine Nord",
         "districts": [
-          { "id": 17001, "name_ar": "القصرين المدينة", "name_fr": "Kasserine Ville" },
-          { "id": 17002, "name_ar": "حي النور", "name_fr": "Hay Ennour" },
-          { "id": 17003, "name_ar": "حي الزهور", "name_fr": "Hay Ezouhour" }
+          {
+            "id": 17002,
+            "name_ar": "حي النور",
+            "name_fr": "Hay Ennour"
+          },
+          {
+            "id": 17003,
+            "name_ar": "حي الزهور",
+            "name_fr": "Hay Ezouhour"
+          },
+          {
+            "id": 17001,
+            "name_ar": "القصرين المدينة",
+            "name_fr": "Kasserine Ville"
+          }
         ]
       },
       {
@@ -1363,7 +3447,11 @@
         "name_ar": "سبيطلة",
         "name_fr": "Sbeitla",
         "districts": [
-          { "id": 17004, "name_ar": "سبيطلة المدينة", "name_fr": "Sbeitla Ville" }
+          {
+            "id": 17004,
+            "name_ar": "سبيطلة المدينة",
+            "name_fr": "Sbeitla Ville"
+          }
         ]
       },
       {
@@ -1371,8 +3459,16 @@
         "name_ar": "فريانة",
         "name_fr": "Fériana",
         "districts": [
-          { "id": 17005, "name_ar": "فريانة المدينة", "name_fr": "Feriana Ville" },
-          { "id": 17006, "name_ar": "تلابت", "name_fr": "Thélepte" }
+          {
+            "id": 17005,
+            "name_ar": "فريانة المدينة",
+            "name_fr": "Feriana Ville"
+          },
+          {
+            "id": 17006,
+            "name_ar": "تلابت",
+            "name_fr": "Thélepte"
+          }
         ]
       }
     ]
@@ -1387,8 +3483,16 @@
         "name_ar": "سيدي بوزيد الغربية",
         "name_fr": "Sidi Bouzid Ouest",
         "districts": [
-          { "id": 18001, "name_ar": "سيدي بوزيد المدينة", "name_fr": "Sidi Bouzid Ville" },
-          { "id": 18002, "name_ar": "حي الخضراء", "name_fr": "Hay El Khadra" }
+          {
+            "id": 18002,
+            "name_ar": "حي الخضراء",
+            "name_fr": "Hay El Khadra"
+          },
+          {
+            "id": 18001,
+            "name_ar": "سيدي بوزيد المدينة",
+            "name_fr": "Sidi Bouzid Ville"
+          }
         ]
       },
       {
@@ -1396,7 +3500,11 @@
         "name_ar": "الرقاب",
         "name_fr": "Regueb",
         "districts": [
-          { "id": 18003, "name_ar": "الرقاب المدينة", "name_fr": "Regueb Ville" }
+          {
+            "id": 18003,
+            "name_ar": "الرقاب المدينة",
+            "name_fr": "Regueb Ville"
+          }
         ]
       },
       {
@@ -1404,7 +3512,11 @@
         "name_ar": "المكناسي",
         "name_fr": "Meknassy",
         "districts": [
-          { "id": 18004, "name_ar": "المكناسي المدينة", "name_fr": "Meknassy Ville" }
+          {
+            "id": 18004,
+            "name_ar": "المكناسي المدينة",
+            "name_fr": "Meknassy Ville"
+          }
         ]
       }
     ]
@@ -1419,9 +3531,21 @@
         "name_ar": "قابس المدينة",
         "name_fr": "Gabès Ville",
         "districts": [
-          { "id": 19001, "name_ar": "باب البحر", "name_fr": "Bab El Bhar" },
-          { "id": 19002, "name_ar": "الكورنيش", "name_fr": "La Corniche" },
-          { "id": 19003, "name_ar": "منزل", "name_fr": "Menzel" }
+          {
+            "id": 19001,
+            "name_ar": "باب البحر",
+            "name_fr": "Bab El Bhar"
+          },
+          {
+            "id": 19002,
+            "name_ar": "الكورنيش",
+            "name_fr": "La Corniche"
+          },
+          {
+            "id": 19003,
+            "name_ar": "منزل",
+            "name_fr": "Menzel"
+          }
         ]
       },
       {
@@ -1429,8 +3553,16 @@
         "name_ar": "قابس الغربية",
         "name_fr": "Gabès Ouest",
         "districts": [
-          { "id": 19004, "name_ar": "بوشمة", "name_fr": "Bou Chemma" },
-          { "id": 19005, "name_ar": "شنني", "name_fr": "Chenini" }
+          {
+            "id": 19004,
+            "name_ar": "بوشمة",
+            "name_fr": "Bou Chemma"
+          },
+          {
+            "id": 19005,
+            "name_ar": "شنني",
+            "name_fr": "Chenini"
+          }
         ]
       },
       {
@@ -1438,8 +3570,16 @@
         "name_ar": "الحامة",
         "name_fr": "El Hamma",
         "districts": [
-          { "id": 19006, "name_ar": "الحامة المدينة", "name_fr": "El Hamma Ville" },
-          { "id": 19007, "name_ar": "حي النصر", "name_fr": "Hay Ennasr" }
+          {
+            "id": 19006,
+            "name_ar": "الحامة المدينة",
+            "name_fr": "El Hamma Ville"
+          },
+          {
+            "id": 19007,
+            "name_ar": "حي النصر",
+            "name_fr": "Hay Ennasr"
+          }
         ]
       }
     ]
@@ -1454,8 +3594,16 @@
         "name_ar": "مدنين الشمالية",
         "name_fr": "Médenine Nord",
         "districts": [
-          { "id": 20001, "name_ar": "مدنين المدينة", "name_fr": "Medenine Ville" },
-          { "id": 20002, "name_ar": "حي النصر", "name_fr": "Hay Ennasr" }
+          {
+            "id": 20002,
+            "name_ar": "حي النصر",
+            "name_fr": "Hay Ennasr"
+          },
+          {
+            "id": 20001,
+            "name_ar": "مدنين المدينة",
+            "name_fr": "Medenine Ville"
+          }
         ]
       },
       {
@@ -1463,9 +3611,21 @@
         "name_ar": "جرجيس",
         "name_fr": "Zarzis",
         "districts": [
-          { "id": 20003, "name_ar": "جرجيس المدينة", "name_fr": "Zarzis Ville" },
-          { "id": 20004, "name_ar": "سانقو", "name_fr": "Sangho" },
-          { "id": 20005, "name_ar": "ميناء جرجيس", "name_fr": "Port Zarzis" }
+          {
+            "id": 20005,
+            "name_ar": "ميناء جرجيس",
+            "name_fr": "Port Zarzis"
+          },
+          {
+            "id": 20004,
+            "name_ar": "سانقو",
+            "name_fr": "Sangho"
+          },
+          {
+            "id": 20003,
+            "name_ar": "جرجيس المدينة",
+            "name_fr": "Zarzis Ville"
+          }
         ]
       },
       {
@@ -1473,8 +3633,16 @@
         "name_ar": "حومة السوق جربة",
         "name_fr": "Houmt Souk (Djerba)",
         "districts": [
-          { "id": 20006, "name_ar": "حومة السوق المدينة", "name_fr": "Houmt Souk Ville" },
-          { "id": 20007, "name_ar": "مزراية", "name_fr": "Mezraya" }
+          {
+            "id": 20006,
+            "name_ar": "حومة السوق المدينة",
+            "name_fr": "Houmt Souk Ville"
+          },
+          {
+            "id": 20007,
+            "name_ar": "مزراية",
+            "name_fr": "Mezraya"
+          }
         ]
       },
       {
@@ -1482,8 +3650,16 @@
         "name_ar": "ميدون جربة",
         "name_fr": "Midoun (Djerba)",
         "districts": [
-          { "id": 20008, "name_ar": "ميدون المدينة", "name_fr": "Midoun Ville" },
-          { "id": 20009, "name_ar": "أغير", "name_fr": "Aghir" }
+          {
+            "id": 20009,
+            "name_ar": "أغير",
+            "name_fr": "Aghir"
+          },
+          {
+            "id": 20008,
+            "name_ar": "ميدون المدينة",
+            "name_fr": "Midoun Ville"
+          }
         ]
       }
     ]
@@ -1498,8 +3674,16 @@
         "name_ar": "تطاوين الشمالية",
         "name_fr": "Tataouine Nord",
         "districts": [
-          { "id": 21001, "name_ar": "تطاوين المدينة", "name_fr": "Tataouine Ville" },
-          { "id": 21002, "name_ar": "حي النصر", "name_fr": "Hay Ennasr" }
+          {
+            "id": 21002,
+            "name_ar": "حي النصر",
+            "name_fr": "Hay Ennasr"
+          },
+          {
+            "id": 21001,
+            "name_ar": "تطاوين المدينة",
+            "name_fr": "Tataouine Ville"
+          }
         ]
       },
       {
@@ -1507,8 +3691,16 @@
         "name_ar": "غمراسن",
         "name_fr": "Ghomrassen",
         "districts": [
-          { "id": 21003, "name_ar": "غمراسن المدينة", "name_fr": "Ghomrassen Ville" },
-          { "id": 21004, "name_ar": "قصر حدادة", "name_fr": "Ksar Hadada" }
+          {
+            "id": 21003,
+            "name_ar": "غمراسن المدينة",
+            "name_fr": "Ghomrassen Ville"
+          },
+          {
+            "id": 21004,
+            "name_ar": "قصر حدادة",
+            "name_fr": "Ksar Hadada"
+          }
         ]
       }
     ]
@@ -1523,8 +3715,16 @@
         "name_ar": "قفصة الجنوبية",
         "name_fr": "Gafsa Sud",
         "districts": [
-          { "id": 22001, "name_ar": "حي الدوالي", "name_fr": "Hay El Douali" },
-          { "id": 22002, "name_ar": "حي النور", "name_fr": "Hay El Nour" }
+          {
+            "id": 22001,
+            "name_ar": "حي الدوالي",
+            "name_fr": "Hay El Douali"
+          },
+          {
+            "id": 22002,
+            "name_ar": "حي النور",
+            "name_fr": "Hay El Nour"
+          }
         ]
       },
       {
@@ -1532,8 +3732,16 @@
         "name_ar": "المتلوي",
         "name_fr": "Métlaoui",
         "districts": [
-          { "id": 22003, "name_ar": "المتلوي المدينة", "name_fr": "Metlaoui Ville" },
-          { "id": 22004, "name_ar": "حي التحرير", "name_fr": "Hay Ettahrir" }
+          {
+            "id": 22004,
+            "name_ar": "حي التحرير",
+            "name_fr": "Hay Ettahrir"
+          },
+          {
+            "id": 22003,
+            "name_ar": "المتلوي المدينة",
+            "name_fr": "Metlaoui Ville"
+          }
         ]
       },
       {
@@ -1541,7 +3749,11 @@
         "name_ar": "الرديف",
         "name_fr": "Redeyef",
         "districts": [
-          { "id": 22005, "name_ar": "الرديف المدينة", "name_fr": "Redeyef Ville" }
+          {
+            "id": 22005,
+            "name_ar": "الرديف المدينة",
+            "name_fr": "Redeyef Ville"
+          }
         ]
       }
     ]
@@ -1556,8 +3768,16 @@
         "name_ar": "توزر",
         "name_fr": "Tozeur",
         "districts": [
-          { "id": 23001, "name_ar": "توزر المدينة", "name_fr": "Tozeur Ville" },
-          { "id": 23002, "name_ar": "رأس العين", "name_fr": "Ras El Ain" }
+          {
+            "id": 23002,
+            "name_ar": "رأس العين",
+            "name_fr": "Ras El Ain"
+          },
+          {
+            "id": 23001,
+            "name_ar": "توزر المدينة",
+            "name_fr": "Tozeur Ville"
+          }
         ]
       },
       {
@@ -1565,7 +3785,11 @@
         "name_ar": "نفطة",
         "name_fr": "Nefta",
         "districts": [
-          { "id": 23003, "name_ar": "نفطة المدينة", "name_fr": "Nefta Ville" }
+          {
+            "id": 23003,
+            "name_ar": "نفطة المدينة",
+            "name_fr": "Nefta Ville"
+          }
         ]
       },
       {
@@ -1573,8 +3797,16 @@
         "name_ar": "دقاش",
         "name_fr": "Degache",
         "districts": [
-          { "id": 23004, "name_ar": "دقاش المدينة", "name_fr": "Degache Ville" },
-          { "id": 23005, "name_ar": "حامة الجريد", "name_fr": "El Hamma du Jerid" }
+          {
+            "id": 23004,
+            "name_ar": "دقاش المدينة",
+            "name_fr": "Degache Ville"
+          },
+          {
+            "id": 23005,
+            "name_ar": "حامة الجريد",
+            "name_fr": "El Hamma du Jerid"
+          }
         ]
       }
     ]
@@ -1589,8 +3821,16 @@
         "name_ar": "قبلي الجنوبية",
         "name_fr": "Kébili Sud",
         "districts": [
-          { "id": 24001, "name_ar": "دوز المدينة", "name_fr": "Douz Ville" },
-          { "id": 24002, "name_ar": "جمنة", "name_fr": "Jemna" }
+          {
+            "id": 24001,
+            "name_ar": "دوز المدينة",
+            "name_fr": "Douz Ville"
+          },
+          {
+            "id": 24002,
+            "name_ar": "جمنة",
+            "name_fr": "Jemna"
+          }
         ]
       },
       {
@@ -1598,7 +3838,11 @@
         "name_ar": "سوق الأحد",
         "name_fr": "Souk Lahad",
         "districts": [
-          { "id": 24003, "name_ar": "سوق الأحد المدينة", "name_fr": "Souk Lahad Ville" }
+          {
+            "id": 24003,
+            "name_ar": "سوق الأحد المدينة",
+            "name_fr": "Souk Lahad Ville"
+          }
         ]
       },
       {
@@ -1606,7 +3850,11 @@
         "name_ar": "الفوار",
         "name_fr": "El Faouar",
         "districts": [
-          { "id": 24004, "name_ar": "الفوار المدينة", "name_fr": "El Faouar Ville" }
+          {
+            "id": 24004,
+            "name_ar": "الفوار المدينة",
+            "name_fr": "El Faouar Ville"
+          }
         ]
       }
     ]
